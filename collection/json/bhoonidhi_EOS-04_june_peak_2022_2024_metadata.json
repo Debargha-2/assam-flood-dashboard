@@ -1,0 +1,3437 @@
+{
+  "total_features": 22,
+  "features": [
+    {
+      "stac_version": "1.0.0",
+      "assets": {
+        "metadata": {
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2022/JUN/24/E04_SAR_MRS_24JUN2022_175235056043_1981_STUC00ZTD_1709_2_DH_D_R_N25120_E092356.meta",
+          "type": "text/plain-text",
+          "title": "metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2022/JUN/24/E04_SAR_MRS_24JUN2022_175235056043_1981_STUC00ZTD_1709_2_DH_D_R_N25120_E092356.jpg",
+          "type": "image/jpeg",
+          "title": "thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        }
+      },
+      "bbox": [
+        91.372432,
+        25.824408,
+        93.199574,
+        24.154266
+      ],
+      "links": [
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B/items/E04_SAR_MRS_24JUN2022_175235056043_1981_STUC00ZTD_1709_2_DH_D_R_N25120_E092356"
+        }
+      ],
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              91.638271,
+              25.824408
+            ],
+            [
+              93.199574,
+              25.572187
+            ],
+            [
+              92.904981,
+              24.154266
+            ],
+            [
+              91.372432,
+              24.405821
+            ],
+            [
+              91.638271,
+              25.824408
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "E04_SAR_MRS_24JUN2022_175235056043_1981_STUC00ZTD_1709_2_DH_D_R_N25120_E092356",
+      "collection": "EOS-04_SAR-MRS_L2B",
+      "type": "Feature",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+      ],
+      "properties": {
+        "Polarization": "DH",
+        "Platform": "EOS-04",
+        "NoOfBeams": "8",
+        "Node": "DESCENDING",
+        "InputResolutionAlong": "30.36",
+        "Dumping_Date": "24-JUN-2022",
+        "datetime": "2022-06-24T23:50:56Z",
+        "InputResolutionAcross": "9.59",
+        "GenerationTime": "2024-09-26T09:59:48",
+        "ID": "E04_SAR_MRS_24JUN2022_175235056043_1981_STUC00ZTD_1709_2_DH_D_R_N25120_E092356",
+        "Scene_Identifier_Scheme": "DmpOrbit_ImgOrbit_Strip_Scene",
+        "ProductCode": "STUC00ZTD",
+        "Sat_Spec": "EOS-04_SAR_MRS",
+        "Dumping_Orbit": "1981",
+        "SceneCenterLon": "92.281476",
+        "Mode": "MRS",
+        "Pass_Type": "SSRD",
+        "IncidenceAngle": "37.78715",
+        "Coverage": "P",
+        "Look_dir": "Right",
+        "ImgLatLon": [
+          [
+            "91.638271",
+            "25.824408"
+          ],
+          [
+            "93.199574",
+            "25.572187"
+          ],
+          [
+            "92.904981",
+            "24.154266"
+          ],
+          [
+            "91.372432",
+            "24.405821"
+          ],
+          [
+            "91.638271",
+            "25.824408"
+          ]
+        ],
+        "StationId": "SAN",
+        "SceneCenterLat": "24.997013",
+        "Producer": "ISRO",
+        "CycleNumber": "6",
+        "SceneNumber": "2",
+        "Imaging_Orbit": "1981",
+        "Instrument": "SAR",
+        "ProdLatLon": [
+          [
+            "91.351727",
+            "25.834578"
+          ],
+          [
+            "93.201577",
+            "25.843787"
+          ],
+          [
+            "93.198838",
+            "24.153179"
+          ],
+          [
+            "91.374116",
+            "24.144649"
+          ],
+          [
+            "91.351727",
+            "25.834578"
+          ]
+        ],
+        "Sat_Spec_Scheme": "SAT_SEN_MODE",
+        "Online": "Y",
+        "StripId": "1709",
+        "updated": "2026-06-10 02:00:16",
+        "Scene_Identifier": "1981_1981_1709_2",
+        "Imaging_Date": "24-JUN-2022"
+      }
+    },
+    {
+      "stac_version": "1.0.0",
+      "assets": {
+        "metadata": {
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2022/JUN/24/E04_SAR_MRS_24JUN2022_175235056041_1981_STUC00ZTD_1709_8_DH_D_R_N25551_E092441.meta",
+          "type": "text/plain-text",
+          "title": "metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2022/JUN/24/E04_SAR_MRS_24JUN2022_175235056041_1981_STUC00ZTD_1709_8_DH_D_R_N25551_E092441.jpg",
+          "type": "image/jpeg",
+          "title": "thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        }
+      },
+      "bbox": [
+        91.5299,
+        25.825355,
+        93.20584,
+        25.015075
+      ],
+      "links": [
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B/items/E04_SAR_MRS_24JUN2022_175235056041_1981_STUC00ZTD_1709_8_DH_D_R_N25551_E092441"
+        }
+      ],
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              91.639354,
+              25.825355
+            ],
+            [
+              93.20584,
+              25.572263
+            ],
+            [
+              93.090125,
+              25.015075
+            ],
+            [
+              91.5299,
+              25.268731
+            ],
+            [
+              91.639354,
+              25.825355
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "E04_SAR_MRS_24JUN2022_175235056041_1981_STUC00ZTD_1709_8_DH_D_R_N25551_E092441",
+      "collection": "EOS-04_SAR-MRS_L2B",
+      "type": "Feature",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+      ],
+      "properties": {
+        "Polarization": "DH",
+        "Platform": "EOS-04",
+        "NoOfBeams": "8",
+        "Node": "DESCENDING",
+        "InputResolutionAlong": "30.36",
+        "Dumping_Date": "25-JUN-2022",
+        "datetime": "2022-06-24T23:50:56Z",
+        "InputResolutionAcross": "9.59",
+        "GenerationTime": "2024-09-26T10:20:09",
+        "ID": "E04_SAR_MRS_24JUN2022_175235056041_1981_STUC00ZTD_1709_8_DH_D_R_N25551_E092441",
+        "Scene_Identifier_Scheme": "DmpOrbit_ImgOrbit_Strip_Scene",
+        "ProductCode": "STUC00ZTD",
+        "Sat_Spec": "EOS-04_SAR_MRS",
+        "Dumping_Orbit": "1982",
+        "SceneCenterLon": "92.368437",
+        "Mode": "MRS",
+        "IncidenceAngle": "37.83331",
+        "Coverage": "P",
+        "Look_dir": "Right",
+        "ImgLatLon": [
+          [
+            "91.639354",
+            "25.825355"
+          ],
+          [
+            "93.205840",
+            "25.572263"
+          ],
+          [
+            "93.090125",
+            "25.015075"
+          ],
+          [
+            "91.529900",
+            "25.268731"
+          ],
+          [
+            "91.639354",
+            "25.825355"
+          ]
+        ],
+        "StationId": "SAN",
+        "SceneCenterLat": "25.428162",
+        "Producer": "ISRO",
+        "CycleNumber": "6",
+        "SceneNumber": "8",
+        "Imaging_Orbit": "1981",
+        "Instrument": "SAR",
+        "ProdLatLon": [
+          [
+            "91.513316",
+            "25.836321"
+          ],
+          [
+            "93.219539",
+            "25.843761"
+          ],
+          [
+            "93.218042",
+            "25.014763"
+          ],
+          [
+            "91.523448",
+            "25.007593"
+          ],
+          [
+            "91.513316",
+            "25.836321"
+          ]
+        ],
+        "Sat_Spec_Scheme": "SAT_SEN_MODE",
+        "Online": "Y",
+        "StripId": "1709",
+        "updated": "2026-06-13 12:18:50",
+        "Scene_Identifier": "1982_1981_1709_8",
+        "Imaging_Date": "24-JUN-2022"
+      }
+    },
+    {
+      "stac_version": "1.0.0",
+      "assets": {
+        "metadata": {
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2022/JUN/16/E04_SAR_MRS_16JUN2022_167234539095_1860_STUC00ZTD_1580_9_DH_D_R_N23842_E093514.meta",
+          "type": "text/plain-text",
+          "title": "metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2022/JUN/16/E04_SAR_MRS_16JUN2022_167234539095_1860_STUC00ZTD_1580_9_DH_D_R_N23842_E093514.jpg",
+          "type": "image/jpeg",
+          "title": "thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        }
+      },
+      "bbox": [
+        92.5447,
+        24.544179,
+        94.35658,
+        22.872317
+      ],
+      "links": [
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B/items/E04_SAR_MRS_16JUN2022_167234539095_1860_STUC00ZTD_1580_9_DH_D_R_N23842_E093514"
+        }
+      ],
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              92.816752,
+              24.544179
+            ],
+            [
+              94.35658,
+              24.291663
+            ],
+            [
+              94.07023,
+              22.872317
+            ],
+            [
+              92.5447,
+              23.126408
+            ],
+            [
+              92.816752,
+              24.544179
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "E04_SAR_MRS_16JUN2022_167234539095_1860_STUC00ZTD_1580_9_DH_D_R_N23842_E093514",
+      "collection": "EOS-04_SAR-MRS_L2B",
+      "type": "Feature",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+      ],
+      "properties": {
+        "Polarization": "DH",
+        "Platform": "EOS-04",
+        "NoOfBeams": "8",
+        "Node": "DESCENDING",
+        "InputResolutionAlong": "30.36",
+        "Dumping_Date": "17-JUN-2022",
+        "datetime": "2022-06-16T23:45:39Z",
+        "InputResolutionAcross": "9.59",
+        "GenerationTime": "2024-09-25T13:37:10",
+        "ID": "E04_SAR_MRS_16JUN2022_167234539095_1860_STUC00ZTD_1580_9_DH_D_R_N23842_E093514",
+        "Scene_Identifier_Scheme": "DmpOrbit_ImgOrbit_Strip_Scene",
+        "ProductCode": "STUC00ZTD",
+        "Sat_Spec": "EOS-04_SAR_MRS",
+        "Dumping_Orbit": "1861",
+        "SceneCenterLon": "93.445292",
+        "Mode": "MRS",
+        "IncidenceAngle": "37.80305",
+        "Coverage": "F",
+        "Look_dir": "Right",
+        "ImgLatLon": [
+          [
+            "92.816752",
+            "24.544179"
+          ],
+          [
+            "94.356580",
+            "24.291663"
+          ],
+          [
+            "94.070230",
+            "22.872317"
+          ],
+          [
+            "92.544700",
+            "23.126408"
+          ],
+          [
+            "92.816752",
+            "24.544179"
+          ]
+        ],
+        "StationId": "S02",
+        "SceneCenterLat": "23.713777",
+        "Producer": "ISRO",
+        "CycleNumber": "6",
+        "SceneNumber": "9",
+        "Imaging_Orbit": "1860",
+        "Instrument": "SAR",
+        "ProdLatLon": [
+          [
+            "92.524035",
+            "24.558990"
+          ],
+          [
+            "94.372464",
+            "24.553493"
+          ],
+          [
+            "94.354890",
+            "22.863068"
+          ],
+          [
+            "92.530131",
+            "22.868142"
+          ],
+          [
+            "92.524035",
+            "24.558990"
+          ]
+        ],
+        "Sat_Spec_Scheme": "SAT_SEN_MODE",
+        "Online": "Y",
+        "StripId": "1580",
+        "updated": "2026-06-12 11:54:25",
+        "Scene_Identifier": "1861_1860_1580_9",
+        "Imaging_Date": "16-JUN-2022"
+      }
+    },
+    {
+      "stac_version": "1.0.0",
+      "assets": {
+        "metadata": {
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2022/JUN/16/E04_SAR_MRS_16JUN2022_167234519056_1860_STUC00ZTD_1580_8_DH_D_R_N25120_E093763.meta",
+          "type": "text/plain-text",
+          "title": "metadata",
+          "roles": [
+            "metadata"
+          ]
+        },
+        "thumbnail": {
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2022/JUN/16/E04_SAR_MRS_16JUN2022_167234519056_1860_STUC00ZTD_1580_8_DH_D_R_N25120_E093763.jpg",
+          "type": "image/jpeg",
+          "title": "thumbnail",
+          "roles": [
+            "thumbnail"
+          ]
+        }
+      },
+      "bbox": [
+        92.789883,
+        25.821872,
+        94.604996,
+        24.149173
+      ],
+      "links": [
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B/items/E04_SAR_MRS_16JUN2022_167234519056_1860_STUC00ZTD_1580_8_DH_D_R_N25120_E093763"
+        }
+      ],
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              93.059882,
+              25.821872
+            ],
+            [
+              94.604996,
+              25.57222
+            ],
+            [
+              94.340375,
+              24.149173
+            ],
+            [
+              92.789883,
+              24.403902
+            ],
+            [
+              93.059882,
+              25.821872
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "E04_SAR_MRS_16JUN2022_167234519056_1860_STUC00ZTD_1580_8_DH_D_R_N25120_E093763",
+      "collection": "EOS-04_SAR-MRS_L2B",
+      "type": "Feature",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+      ],
+      "properties": {
+        "Polarization": "DH",
+        "Platform": "EOS-04",
+        "NoOfBeams": "8",
+        "Node": "DESCENDING",
+        "InputResolutionAlong": "30.36",
+        "Dumping_Date": "17-JUN-2022",
+        "datetime": "2022-06-16T23:45:19Z",
+        "InputResolutionAcross": "9.59",
+        "GenerationTime": "2024-09-25T13:39:12",
+        "ID": "E04_SAR_MRS_16JUN2022_167234519056_1860_STUC00ZTD_1580_8_DH_D_R_N25120_E093763",
+        "Scene_Identifier_Scheme": "DmpOrbit_ImgOrbit_Strip_Scene",
+        "ProductCode": "STUC00ZTD",
+        "Sat_Spec": "EOS-04_SAR_MRS",
+        "Dumping_Orbit": "1861",
+        "SceneCenterLon": "93.690555",
+        "Mode": "MRS",
+        "Pass_Type": "SSRD",
+        "IncidenceAngle": "37.80715",
+        "Coverage": "F",
+        "Look_dir": "Right",
+        "ImgLatLon": [
+          [
+            "93.059882",
+            "25.821872"
+          ],
+          [
+            "94.604996",
+            "25.572220"
+          ],
+          [
+            "94.340375",
+            "24.149173"
+          ],
+          [
+            "92.789883",
+            "24.403902"
+          ],
+          [
+            "93.059882",
+            "25.821872"
+          ]
+        ],
+        "StationId": "S02",
+        "SceneCenterLat": "24.989018",
+        "Producer": "ISRO",
+        "CycleNumber": "6",
+        "SceneNumber": "8",
+        "Imaging_Orbit": "1860",
+        "Instrument": "SAR",
+        "ProdLatLon": [
+          [
+            "92.770514",
+            "25.827492"
+          ],
+          [
+            "94.620125",
+            "25.818644"
+          ],
+          [
+            "94.598336",
+            "24.144940"
+          ],
+          [
+            "92.773602",
+            "24.153140"
+          ],
+          [
+            "92.770514",
+            "25.827492"
+          ]
+        ],
+        "Sat_Spec_Scheme": "SAT_SEN_MODE",
+        "Online": "Y",
+        "StripId": "1580",
+        "updated": "2026-06-11 19:56:50",
+        "Scene_Identifier": "1861_1860_1580_8",
+        "Imaging_Date": "16-JUN-2022"
+      }
+    },
+    {
+      "stac_version": "1.0.0",
+      "assets": {
+        "metadata": {
+          "type": "text/plain-text",
+          "title": "metadata",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/28/E04_SAR_MRS_28JUN2024_180112356852_13085_STUC00ZTD_16928_5_DH_A_L_N25321_E092234.meta"
+        },
+        "thumbnail": {
+          "type": "image/jpeg",
+          "title": "thumbnail",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/28/E04_SAR_MRS_28JUN2024_180112356852_13085_STUC00ZTD_16928_5_DH_A_L_N25321_E092234.jpg"
+        }
+      },
+      "bbox": [
+        91.405448,
+        25.718783,
+        93.111317,
+        24.582927
+      ],
+      "links": [
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B/items/E04_SAR_MRS_28JUN2024_180112356852_13085_STUC00ZTD_16928_5_DH_A_L_N25321_E092234"
+        }
+      ],
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              91.405448,
+              25.403381
+            ],
+            [
+              92.907181,
+              25.718783
+            ],
+            [
+              93.111317,
+              24.892939
+            ],
+            [
+              91.63534,
+              24.582927
+            ],
+            [
+              91.405448,
+              25.403381
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "E04_SAR_MRS_28JUN2024_180112356852_13085_STUC00ZTD_16928_5_DH_A_L_N25321_E092234",
+      "collection": "EOS-04_SAR-MRS_L2B",
+      "type": "Feature",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+      ],
+      "properties": {
+        "Polarization": "DH",
+        "Platform": "EOS-04",
+        "NoOfBeams": "8",
+        "Node": "ASCENDING",
+        "InputResolutionAlong": "30.36",
+        "Dumping_Date": "28-JUN-2024",
+        "datetime": "2024-06-28T11:23:56Z",
+        "InputResolutionAcross": "9.59",
+        "GenerationTime": "2024-06-28T17:48:14",
+        "ID": "E04_SAR_MRS_28JUN2024_180112356852_13085_STUC00ZTD_16928_5_DH_A_L_N25321_E092234",
+        "Scene_Identifier_Scheme": "DmpOrbit_ImgOrbit_Strip_Scene",
+        "ProductCode": "STUC00ZTD",
+        "Sat_Spec": "EOS-04_SAR_MRS",
+        "Dumping_Orbit": "13085",
+        "SceneCenterLon": "92.262716",
+        "Mode": "MRS",
+        "Pass_Type": "SSRD",
+        "IncidenceAngle": "33.09518",
+        "Coverage": "P",
+        "Look_dir": "Left",
+        "ImgLatLon": [
+          [
+            "91.405448",
+            "25.403381"
+          ],
+          [
+            "92.907181",
+            "25.718783"
+          ],
+          [
+            "93.111317",
+            "24.892939"
+          ],
+          [
+            "91.635340",
+            "24.582927"
+          ],
+          [
+            "91.405448",
+            "25.403381"
+          ]
+        ],
+        "StationId": "SAN",
+        "SceneCenterLat": "25.151343",
+        "Producer": "ISRO",
+        "CycleNumber": "49",
+        "SceneNumber": "5",
+        "Imaging_Orbit": "13085",
+        "Instrument": "SAR",
+        "ProdLatLon": [
+          [
+            "91.389171",
+            "25.721246"
+          ],
+          [
+            "93.129604",
+            "25.730090"
+          ],
+          [
+            "93.128391",
+            "24.575945"
+          ],
+          [
+            "91.404246",
+            "24.567549"
+          ],
+          [
+            "91.389171",
+            "25.721246"
+          ]
+        ],
+        "Sat_Spec_Scheme": "SAT_SEN_MODE",
+        "Online": "N",
+        "StripId": "16928",
+        "updated": "2026-05-21 00:44:30",
+        "Scene_Identifier": "13085_13085_16928_5",
+        "Imaging_Date": "28-JUN-2024"
+      }
+    },
+    {
+      "stac_version": "1.0.0",
+      "assets": {
+        "metadata": {
+          "type": "text/plain-text",
+          "title": "metadata",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/28/E04_SAR_MRS_28JUN2024_180112336404_13085_STUC00ZTD_16928_4_DH_A_L_N24042_E092556.meta"
+        },
+        "thumbnail": {
+          "type": "image/jpeg",
+          "title": "thumbnail",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/28/E04_SAR_MRS_28JUN2024_180112336404_13085_STUC00ZTD_16928_4_DH_A_L_N24042_E092556.jpg"
+        }
+      },
+      "bbox": [
+        91.604687,
+        25.030417,
+        93.400331,
+        23.307229
+      ],
+      "links": [
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B/items/E04_SAR_MRS_28JUN2024_180112336404_13085_STUC00ZTD_16928_4_DH_A_L_N24042_E092556"
+        }
+      ],
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              91.604687,
+              24.719839
+            ],
+            [
+              93.083686,
+              25.030417
+            ],
+            [
+              93.400331,
+              23.60936
+            ],
+            [
+              91.962747,
+              23.307229
+            ],
+            [
+              91.604687,
+              24.719839
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "E04_SAR_MRS_28JUN2024_180112336404_13085_STUC00ZTD_16928_4_DH_A_L_N24042_E092556",
+      "collection": "EOS-04_SAR-MRS_L2B",
+      "type": "Feature",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+      ],
+      "properties": {
+        "Polarization": "DH",
+        "Platform": "EOS-04",
+        "NoOfBeams": "8",
+        "Node": "ASCENDING",
+        "InputResolutionAlong": "30.36",
+        "Dumping_Date": "28-JUN-2024",
+        "datetime": "2024-06-28T11:23:36Z",
+        "InputResolutionAcross": "9.59",
+        "GenerationTime": "2024-06-28T17:55:27",
+        "ID": "E04_SAR_MRS_28JUN2024_180112336404_13085_STUC00ZTD_16928_4_DH_A_L_N24042_E092556",
+        "Scene_Identifier_Scheme": "DmpOrbit_ImgOrbit_Strip_Scene",
+        "ProductCode": "STUC00ZTD",
+        "Sat_Spec": "EOS-04_SAR_MRS",
+        "Dumping_Orbit": "13085",
+        "SceneCenterLon": "92.507683",
+        "Mode": "MRS",
+        "Pass_Type": "SSRD",
+        "IncidenceAngle": "33.10217",
+        "Coverage": "P",
+        "Look_dir": "Left",
+        "ImgLatLon": [
+          [
+            "91.604687",
+            "24.719839"
+          ],
+          [
+            "93.083686",
+            "25.030417"
+          ],
+          [
+            "93.400331",
+            "23.609360"
+          ],
+          [
+            "91.962747",
+            "23.307229"
+          ],
+          [
+            "91.604687",
+            "24.719839"
+          ]
+        ],
+        "StationId": "SAN",
+        "SceneCenterLat": "24.168854",
+        "Producer": "ISRO",
+        "CycleNumber": "49",
+        "SceneNumber": "4",
+        "Imaging_Orbit": "13085",
+        "Instrument": "SAR",
+        "ProdLatLon": [
+          [
+            "91.594596",
+            "25.024534"
+          ],
+          [
+            "93.414332",
+            "25.030599"
+          ],
+          [
+            "93.408807",
+            "23.307324"
+          ],
+          [
+            "91.613329",
+            "23.301725"
+          ],
+          [
+            "91.594596",
+            "25.024534"
+          ]
+        ],
+        "Sat_Spec_Scheme": "SAT_SEN_MODE",
+        "Online": "Y",
+        "StripId": "16928",
+        "updated": "2026-05-22 04:02:33",
+        "Scene_Identifier": "13085_13085_16928_4",
+        "Imaging_Date": "28-JUN-2024"
+      }
+    },
+    {
+      "stac_version": "1.0.0",
+      "assets": {
+        "metadata": {
+          "type": "text/plain-text",
+          "title": "metadata",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/25/E04_SAR_MRS_25JUN2024_177115708608_13040_STUC00ZTD_16861_5_DH_A_R_N25432_E092879.meta"
+        },
+        "thumbnail": {
+          "type": "image/jpeg",
+          "title": "thumbnail",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/25/E04_SAR_MRS_25JUN2024_177115708608_13040_STUC00ZTD_16861_5_DH_A_R_N25432_E092879.jpg"
+        }
+      },
+      "bbox": [
+        92.066101,
+        26.136833,
+        93.81843,
+        24.498917
+      ],
+      "links": [
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B/items/E04_SAR_MRS_25JUN2024_177115708608_13040_STUC00ZTD_16861_5_DH_A_R_N25432_E092879"
+        }
+      ],
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              92.066101,
+              25.91678
+            ],
+            [
+              93.573765,
+              26.136833
+            ],
+            [
+              93.81843,
+              24.722149
+            ],
+            [
+              92.324018,
+              24.498917
+            ],
+            [
+              92.066101,
+              25.91678
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "E04_SAR_MRS_25JUN2024_177115708608_13040_STUC00ZTD_16861_5_DH_A_R_N25432_E092879",
+      "collection": "EOS-04_SAR-MRS_L2B",
+      "type": "Feature",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+      ],
+      "properties": {
+        "Polarization": "DH",
+        "Platform": "EOS-04",
+        "NoOfBeams": "8",
+        "Node": "ASCENDING",
+        "InputResolutionAlong": "30.36",
+        "Dumping_Date": "25-JUN-2024",
+        "datetime": "2024-06-25T11:57:08Z",
+        "InputResolutionAcross": "9.59",
+        "GenerationTime": "2024-09-28T14:44:28",
+        "ID": "E04_SAR_MRS_25JUN2024_177115708608_13040_STUC00ZTD_16861_5_DH_A_R_N25432_E092879",
+        "Scene_Identifier_Scheme": "DmpOrbit_ImgOrbit_Strip_Scene",
+        "ProductCode": "STUC00ZTD",
+        "Sat_Spec": "EOS-04_SAR_MRS",
+        "Dumping_Orbit": "13045",
+        "SceneCenterLon": "92.941288",
+        "Mode": "MRS",
+        "Pass_Type": "SSRD",
+        "IncidenceAngle": "51.76845",
+        "Coverage": "F",
+        "Look_dir": "Right",
+        "ImgLatLon": [
+          [
+            "92.066101",
+            "25.916780"
+          ],
+          [
+            "93.573765",
+            "26.136833"
+          ],
+          [
+            "93.818430",
+            "24.722149"
+          ],
+          [
+            "92.324018",
+            "24.498917"
+          ],
+          [
+            "92.066101",
+            "25.916780"
+          ]
+        ],
+        "StationId": "S02",
+        "SceneCenterLat": "25.323849",
+        "Producer": "ISRO",
+        "CycleNumber": "49",
+        "SceneNumber": "5",
+        "Imaging_Orbit": "13040",
+        "Instrument": "SAR",
+        "ProdLatLon": [
+          [
+            "92.049557",
+            "26.149613"
+          ],
+          [
+            "93.832398",
+            "26.150343"
+          ],
+          [
+            "93.821139",
+            "24.492481"
+          ],
+          [
+            "92.062412",
+            "24.491803"
+          ],
+          [
+            "92.049557",
+            "26.149613"
+          ]
+        ],
+        "Sat_Spec_Scheme": "SAT_SEN_MODE",
+        "Online": "N",
+        "StripId": "16861",
+        "updated": "2026-05-21 01:10:14",
+        "Scene_Identifier": "13045_13040_16861_5",
+        "Imaging_Date": "25-JUN-2024"
+      }
+    },
+    {
+      "stac_version": "1.0.0",
+      "assets": {
+        "metadata": {
+          "type": "text/plain-text",
+          "title": "metadata",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/25/E04_SAR_MRS_25JUN2024_177115648220_13040_STUC00ZTD_16861_4_DH_A_R_N24157_E093104.meta"
+        },
+        "thumbnail": {
+          "type": "image/jpeg",
+          "title": "thumbnail",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/25/E04_SAR_MRS_25JUN2024_177115648220_13040_STUC00ZTD_16861_4_DH_A_R_N24157_E093104.jpg"
+        }
+      },
+      "bbox": [
+        92.301357,
+        24.862357,
+        94.035544,
+        23.223578
+      ],
+      "links": [
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B/items/E04_SAR_MRS_25JUN2024_177115648220_13040_STUC00ZTD_16861_4_DH_A_R_N24157_E093104"
+        }
+      ],
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              92.301357,
+              24.639737
+            ],
+            [
+              93.795152,
+              24.862357
+            ],
+            [
+              94.035544,
+              23.446698
+            ],
+            [
+              92.571328,
+              23.223578
+            ],
+            [
+              92.301357,
+              24.639737
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "E04_SAR_MRS_25JUN2024_177115648220_13040_STUC00ZTD_16861_4_DH_A_R_N24157_E093104",
+      "collection": "EOS-04_SAR-MRS_L2B",
+      "type": "Feature",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+      ],
+      "properties": {
+        "Polarization": "DH",
+        "Platform": "EOS-04",
+        "NoOfBeams": "8",
+        "Node": "ASCENDING",
+        "InputResolutionAlong": "30.36",
+        "Dumping_Date": "25-JUN-2024",
+        "datetime": "2024-06-25T11:56:48Z",
+        "InputResolutionAcross": "9.59",
+        "GenerationTime": "2024-09-28T14:45:22",
+        "ID": "E04_SAR_MRS_25JUN2024_177115648220_13040_STUC00ZTD_16861_4_DH_A_R_N24157_E093104",
+        "Scene_Identifier_Scheme": "DmpOrbit_ImgOrbit_Strip_Scene",
+        "ProductCode": "STUC00ZTD",
+        "Sat_Spec": "EOS-04_SAR_MRS",
+        "Dumping_Orbit": "13045",
+        "SceneCenterLon": "93.172020",
+        "Mode": "MRS",
+        "Pass_Type": "SSRD",
+        "IncidenceAngle": "51.79380",
+        "Coverage": "F",
+        "Look_dir": "Right",
+        "ImgLatLon": [
+          [
+            "92.301357",
+            "24.639737"
+          ],
+          [
+            "93.795152",
+            "24.862357"
+          ],
+          [
+            "94.035544",
+            "23.446698"
+          ],
+          [
+            "92.571328",
+            "23.223578"
+          ],
+          [
+            "92.301357",
+            "24.639737"
+          ]
+        ],
+        "StationId": "S02",
+        "SceneCenterLat": "24.039488",
+        "Producer": "ISRO",
+        "CycleNumber": "49",
+        "SceneNumber": "4",
+        "Imaging_Orbit": "13040",
+        "Instrument": "SAR",
+        "ProdLatLon": [
+          [
+            "92.291228",
+            "24.866934"
+          ],
+          [
+            "94.055199",
+            "24.864888"
+          ],
+          [
+            "94.041741",
+            "23.206849"
+          ],
+          [
+            "92.300270",
+            "23.208742"
+          ],
+          [
+            "92.291228",
+            "24.866934"
+          ]
+        ],
+        "Sat_Spec_Scheme": "SAT_SEN_MODE",
+        "Online": "Y",
+        "StripId": "16861",
+        "updated": "2026-05-21 01:08:40",
+        "Scene_Identifier": "13045_13040_16861_4",
+        "Imaging_Date": "25-JUN-2024"
+      }
+    },
+    {
+      "stac_version": "1.0.0",
+      "assets": {
+        "metadata": {
+          "type": "text/plain-text",
+          "title": "metadata",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/24/E04_SAR_MRS_24JUN2024_176234944699_13032_STUC00ZTD_16845_8_DH_D_R_N25120_E092347.meta"
+        },
+        "thumbnail": {
+          "type": "image/jpeg",
+          "title": "thumbnail",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/24/E04_SAR_MRS_24JUN2024_176234944699_13032_STUC00ZTD_16845_8_DH_D_R_N25120_E092347.jpg"
+        }
+      },
+      "bbox": [
+        91.370052,
+        25.824734,
+        93.191832,
+        24.155645
+      ],
+      "links": [
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B/items/E04_SAR_MRS_24JUN2024_176234944699_13032_STUC00ZTD_16845_8_DH_D_R_N25120_E092347"
+        }
+      ],
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              91.636497,
+              25.824734
+            ],
+            [
+              93.191832,
+              25.573595
+            ],
+            [
+              92.897619,
+              24.155645
+            ],
+            [
+              91.370052,
+              24.40626
+            ],
+            [
+              91.636497,
+              25.824734
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "E04_SAR_MRS_24JUN2024_176234944699_13032_STUC00ZTD_16845_8_DH_D_R_N25120_E092347",
+      "collection": "EOS-04_SAR-MRS_L2B",
+      "type": "Feature",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+      ],
+      "properties": {
+        "Polarization": "DH",
+        "Platform": "EOS-04",
+        "NoOfBeams": "8",
+        "Node": "DESCENDING",
+        "InputResolutionAlong": "30.36",
+        "Dumping_Date": "25-JUN-2024",
+        "datetime": "2024-06-24T23:49:44Z",
+        "InputResolutionAcross": "9.59",
+        "GenerationTime": "2024-08-10T00:54:26",
+        "ID": "E04_SAR_MRS_24JUN2024_176234944699_13032_STUC00ZTD_16845_8_DH_D_R_N25120_E092347",
+        "Scene_Identifier_Scheme": "DmpOrbit_ImgOrbit_Strip_Scene",
+        "ProductCode": "STUC00ZTD",
+        "Sat_Spec": "EOS-04_SAR_MRS",
+        "Dumping_Orbit": "13033",
+        "SceneCenterLon": "92.272558",
+        "Mode": "MRS",
+        "Pass_Type": "SSRD",
+        "IncidenceAngle": "37.82911",
+        "Coverage": "F",
+        "Look_dir": "Right",
+        "ImgLatLon": [
+          [
+            "91.636497",
+            "25.824734"
+          ],
+          [
+            "93.191832",
+            "25.573595"
+          ],
+          [
+            "92.897619",
+            "24.155645"
+          ],
+          [
+            "91.370052",
+            "24.406260"
+          ],
+          [
+            "91.636497",
+            "25.824734"
+          ]
+        ],
+        "StationId": "S04",
+        "SceneCenterLat": "24.996970",
+        "Producer": "ISRO",
+        "CycleNumber": "49",
+        "SceneNumber": "8",
+        "Imaging_Orbit": "13032",
+        "Instrument": "SAR",
+        "ProdLatLon": [
+          [
+            "91.333773",
+            "25.834373"
+          ],
+          [
+            "93.201577",
+            "25.843787"
+          ],
+          [
+            "93.198838",
+            "24.153179"
+          ],
+          [
+            "91.356406",
+            "24.144460"
+          ],
+          [
+            "91.333773",
+            "25.834373"
+          ]
+        ],
+        "Sat_Spec_Scheme": "SAT_SEN_MODE",
+        "Online": "N",
+        "StripId": "16845",
+        "updated": "2026-05-21 01:16:42",
+        "Scene_Identifier": "13033_13032_16845_8",
+        "Imaging_Date": "24-JUN-2024"
+      }
+    },
+    {
+      "stac_version": "1.0.0",
+      "assets": {
+        "metadata": {
+          "type": "text/plain-text",
+          "title": "metadata",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/16/E04_SAR_MRS_16JUN2024_168234429346_12911_STUC00ZTD_16658_9_DH_D_R_N23842_E093503.meta"
+        },
+        "thumbnail": {
+          "type": "image/jpeg",
+          "title": "thumbnail",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/16/E04_SAR_MRS_16JUN2024_168234429346_12911_STUC00ZTD_16658_9_DH_D_R_N23842_E093503.jpg"
+        }
+      },
+      "bbox": [
+        92.540651,
+        24.545416,
+        94.346014,
+        22.874412
+      ],
+      "links": [
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B/items/E04_SAR_MRS_16JUN2024_168234429346_12911_STUC00ZTD_16658_9_DH_D_R_N23842_E093503"
+        }
+      ],
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              92.811085,
+              24.545416
+            ],
+            [
+              94.346014,
+              24.293826
+            ],
+            [
+              94.059927,
+              22.874412
+            ],
+            [
+              92.540651,
+              23.127345
+            ],
+            [
+              92.811085,
+              24.545416
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "E04_SAR_MRS_16JUN2024_168234429346_12911_STUC00ZTD_16658_9_DH_D_R_N23842_E093503",
+      "collection": "EOS-04_SAR-MRS_L2B",
+      "type": "Feature",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+      ],
+      "properties": {
+        "Polarization": "DH",
+        "Platform": "EOS-04",
+        "NoOfBeams": "8",
+        "Node": "DESCENDING",
+        "InputResolutionAlong": "30.36",
+        "Dumping_Date": "17-JUN-2024",
+        "datetime": "2024-06-16T23:44:29Z",
+        "InputResolutionAcross": "9.59",
+        "GenerationTime": "2024-08-11T19:08:48",
+        "ID": "E04_SAR_MRS_16JUN2024_168234429346_12911_STUC00ZTD_16658_9_DH_D_R_N23842_E093503",
+        "Scene_Identifier_Scheme": "DmpOrbit_ImgOrbit_Strip_Scene",
+        "ProductCode": "STUC00ZTD",
+        "Sat_Spec": "EOS-04_SAR_MRS",
+        "Dumping_Orbit": "12912",
+        "SceneCenterLon": "93.436463",
+        "Mode": "MRS",
+        "Pass_Type": "SSRD",
+        "IncidenceAngle": "37.83054",
+        "Coverage": "F",
+        "Look_dir": "Right",
+        "ImgLatLon": [
+          [
+            "92.811085",
+            "24.545416"
+          ],
+          [
+            "94.346014",
+            "24.293826"
+          ],
+          [
+            "94.059927",
+            "22.874412"
+          ],
+          [
+            "92.540651",
+            "23.127345"
+          ],
+          [
+            "92.811085",
+            "24.545416"
+          ]
+        ],
+        "StationId": "SAN",
+        "SceneCenterLat": "23.713802",
+        "Producer": "ISRO",
+        "CycleNumber": "49",
+        "SceneNumber": "9",
+        "Imaging_Orbit": "12911",
+        "Instrument": "SAR",
+        "ProdLatLon": [
+          [
+            "92.524035",
+            "24.558990"
+          ],
+          [
+            "94.354695",
+            "24.553654"
+          ],
+          [
+            "94.337349",
+            "22.863217"
+          ],
+          [
+            "92.530131",
+            "22.868142"
+          ],
+          [
+            "92.524035",
+            "24.558990"
+          ]
+        ],
+        "Sat_Spec_Scheme": "SAT_SEN_MODE",
+        "Online": "Y",
+        "StripId": "16658",
+        "updated": "2026-05-21 02:11:48",
+        "Scene_Identifier": "12912_12911_16658_9",
+        "Imaging_Date": "16-JUN-2024"
+      }
+    },
+    {
+      "stac_version": "1.0.0",
+      "assets": {
+        "metadata": {
+          "type": "text/plain-text",
+          "title": "metadata",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/16/E04_SAR_MRS_16JUN2024_168234408960_12911_STUC00ZTD_16658_8_DH_D_R_N25120_E093753.meta"
+        },
+        "thumbnail": {
+          "type": "image/jpeg",
+          "title": "thumbnail",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/16/E04_SAR_MRS_16JUN2024_168234408960_12911_STUC00ZTD_16658_8_DH_D_R_N25120_E093753.jpg"
+        }
+      },
+      "bbox": [
+        92.784198,
+        25.823025,
+        94.600381,
+        24.150803
+      ],
+      "links": [
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B/items/E04_SAR_MRS_16JUN2024_168234408960_12911_STUC00ZTD_16658_8_DH_D_R_N25120_E093753"
+        }
+      ],
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              93.054086,
+              25.823025
+            ],
+            [
+              94.600381,
+              25.573273
+            ],
+            [
+              94.33215,
+              24.150803
+            ],
+            [
+              92.784198,
+              24.405002
+            ],
+            [
+              93.054086,
+              25.823025
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "E04_SAR_MRS_16JUN2024_168234408960_12911_STUC00ZTD_16658_8_DH_D_R_N25120_E093753",
+      "collection": "EOS-04_SAR-MRS_L2B",
+      "type": "Feature",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+      ],
+      "properties": {
+        "Polarization": "DH",
+        "Platform": "EOS-04",
+        "NoOfBeams": "8",
+        "Node": "DESCENDING",
+        "InputResolutionAlong": "30.36",
+        "Dumping_Date": "17-JUN-2024",
+        "datetime": "2024-06-16T23:44:08Z",
+        "InputResolutionAcross": "9.59",
+        "GenerationTime": "2024-08-11T19:08:31",
+        "ID": "E04_SAR_MRS_16JUN2024_168234408960_12911_STUC00ZTD_16658_8_DH_D_R_N25120_E093753",
+        "Scene_Identifier_Scheme": "DmpOrbit_ImgOrbit_Strip_Scene",
+        "ProductCode": "STUC00ZTD",
+        "Sat_Spec": "EOS-04_SAR_MRS",
+        "Dumping_Orbit": "12912",
+        "SceneCenterLon": "93.690555",
+        "Mode": "MRS",
+        "Pass_Type": "SSRD",
+        "IncidenceAngle": "37.77437",
+        "Coverage": "F",
+        "Look_dir": "Right",
+        "ImgLatLon": [
+          [
+            "93.054086",
+            "25.823025"
+          ],
+          [
+            "94.600381",
+            "25.573273"
+          ],
+          [
+            "94.332150",
+            "24.150803"
+          ],
+          [
+            "92.784198",
+            "24.405002"
+          ],
+          [
+            "93.054086",
+            "25.823025"
+          ]
+        ],
+        "StationId": "SAN",
+        "SceneCenterLat": "24.989018",
+        "Producer": "ISRO",
+        "CycleNumber": "49",
+        "SceneNumber": "8",
+        "Imaging_Orbit": "12911",
+        "Instrument": "SAR",
+        "ProdLatLon": [
+          [
+            "92.770514",
+            "25.827492"
+          ],
+          [
+            "94.620125",
+            "25.818644"
+          ],
+          [
+            "94.598336",
+            "24.144940"
+          ],
+          [
+            "92.773602",
+            "24.153140"
+          ],
+          [
+            "92.770514",
+            "25.827492"
+          ]
+        ],
+        "Sat_Spec_Scheme": "SAT_SEN_MODE",
+        "Online": "Y",
+        "StripId": "16658",
+        "updated": "2026-05-21 02:12:29",
+        "Scene_Identifier": "12912_12911_16658_8",
+        "Imaging_Date": "16-JUN-2024"
+      }
+    },
+    {
+      "stac_version": "1.0.0",
+      "assets": {
+        "metadata": {
+          "type": "text/plain-text",
+          "title": "metadata",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/12/E04_SAR_MRS_12JUN2024_164111246764_12843_STUC00ZTD_16559_4_DH_A_L_N24873_E092889.meta"
+        },
+        "thumbnail": {
+          "type": "image/jpeg",
+          "title": "thumbnail",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/12/E04_SAR_MRS_12JUN2024_164111246764_12843_STUC00ZTD_16559_4_DH_A_L_N24873_E092889.jpg"
+        }
+      },
+      "bbox": [
+        91.882994,
+        25.849398,
+        93.775502,
+        24.101723
+      ],
+      "links": [
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B/items/E04_SAR_MRS_12JUN2024_164111246764_12843_STUC00ZTD_16559_4_DH_A_L_N24873_E092889"
+        }
+      ],
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              91.882994,
+              25.503965
+            ],
+            [
+              93.407148,
+              25.849398
+            ],
+            [
+              93.775502,
+              24.43858
+            ],
+            [
+              92.284153,
+              24.101723
+            ],
+            [
+              91.882994,
+              25.503965
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "E04_SAR_MRS_12JUN2024_164111246764_12843_STUC00ZTD_16559_4_DH_A_L_N24873_E092889",
+      "collection": "EOS-04_SAR-MRS_L2B",
+      "type": "Feature",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+      ],
+      "properties": {
+        "Polarization": "DH",
+        "Platform": "EOS-04",
+        "NoOfBeams": "8",
+        "Node": "ASCENDING",
+        "InputResolutionAlong": "30.36",
+        "Dumping_Date": "12-JUN-2024",
+        "datetime": "2024-06-12T11:12:46Z",
+        "InputResolutionAcross": "9.59",
+        "GenerationTime": "2024-06-13T08:40:36",
+        "ID": "E04_SAR_MRS_12JUN2024_164111246764_12843_STUC00ZTD_16559_4_DH_A_L_N24873_E092889",
+        "Scene_Identifier_Scheme": "DmpOrbit_ImgOrbit_Strip_Scene",
+        "ProductCode": "STUC00ZTD",
+        "Sat_Spec": "EOS-04_SAR_MRS",
+        "Dumping_Orbit": "12850",
+        "SceneCenterLon": "92.834451",
+        "Mode": "MRS",
+        "Pass_Type": "SSRD",
+        "IncidenceAngle": "48.97319",
+        "Coverage": "F",
+        "Look_dir": "Left",
+        "ImgLatLon": [
+          [
+            "91.882994",
+            "25.503965"
+          ],
+          [
+            "93.407148",
+            "25.849398"
+          ],
+          [
+            "93.775502",
+            "24.438580"
+          ],
+          [
+            "92.284153",
+            "24.101723"
+          ],
+          [
+            "91.882994",
+            "25.503965"
+          ]
+        ],
+        "StationId": "ANT",
+        "SceneCenterLat": "24.974272",
+        "Producer": "ISRO",
+        "CycleNumber": "48",
+        "SceneNumber": "4",
+        "Imaging_Orbit": "12843",
+        "Instrument": "SAR",
+        "ProdLatLon": [
+          [
+            "91.872297",
+            "25.855802"
+          ],
+          [
+            "93.794414",
+            "25.858008"
+          ],
+          [
+            "93.783116",
+            "24.086272"
+          ],
+          [
+            "91.888333",
+            "24.084236"
+          ],
+          [
+            "91.872297",
+            "25.855802"
+          ]
+        ],
+        "Sat_Spec_Scheme": "SAT_SEN_MODE",
+        "Online": "Y",
+        "StripId": "16559",
+        "updated": "2026-05-28 17:38:21",
+        "Scene_Identifier": "12850_12843_16559_4",
+        "Imaging_Date": "12-JUN-2024"
+      }
+    },
+    {
+      "stac_version": "1.0.0",
+      "assets": {
+        "metadata": {
+          "type": "text/plain-text",
+          "title": "metadata",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/11/E04_SAR_MRS_11JUN2024_163112401421_12828_STUC00ZTD_16536_1_HV_A_L_N25399_E092637.meta"
+        },
+        "thumbnail": {
+          "type": "image/jpeg",
+          "title": "thumbnail",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/11/E04_SAR_MRS_11JUN2024_163112401421_12828_STUC00ZTD_16536_1_HV_A_L_N25399_E092637.jpg"
+        }
+      },
+      "bbox": [
+        91.707752,
+        26.386944,
+        93.465014,
+        24.809579
+      ],
+      "links": [
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B/items/E04_SAR_MRS_11JUN2024_163112401421_12828_STUC00ZTD_16536_1_HV_A_L_N25399_E092637"
+        }
+      ],
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              91.707752,
+              26.089219
+            ],
+            [
+              93.147631,
+              26.386944
+            ],
+            [
+              93.465014,
+              25.104547
+            ],
+            [
+              92.040097,
+              24.809579
+            ],
+            [
+              91.707752,
+              26.089219
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "E04_SAR_MRS_11JUN2024_163112401421_12828_STUC00ZTD_16536_1_HV_A_L_N25399_E092637",
+      "collection": "EOS-04_SAR-MRS_L2B",
+      "type": "Feature",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+      ],
+      "properties": {
+        "Polarization": "HV",
+        "Platform": "EOS-04",
+        "NoOfBeams": "8",
+        "Node": "ASCENDING",
+        "InputResolutionAlong": "30.36",
+        "Dumping_Date": "11-JUN-2024",
+        "datetime": "2024-06-11T11:24:01Z",
+        "InputResolutionAcross": "9.59",
+        "GenerationTime": "2024-06-27T11:23:14",
+        "ID": "E04_SAR_MRS_11JUN2024_163112401421_12828_STUC00ZTD_16536_1_HV_A_L_N25399_E092637",
+        "Scene_Identifier_Scheme": "DmpOrbit_ImgOrbit_Strip_Scene",
+        "ProductCode": "STUC00ZTD",
+        "Sat_Spec": "EOS-04_SAR_MRS",
+        "Dumping_Orbit": "12831",
+        "SceneCenterLon": "92.582642",
+        "Mode": "MRS",
+        "Pass_Type": "SSRD",
+        "IncidenceAngle": "29.34758",
+        "Coverage": "P",
+        "Look_dir": "Left",
+        "ImgLatLon": [
+          [
+            "91.707752",
+            "26.089219"
+          ],
+          [
+            "93.147631",
+            "26.386944"
+          ],
+          [
+            "93.465014",
+            "25.104547"
+          ],
+          [
+            "92.040097",
+            "24.809579"
+          ],
+          [
+            "91.707752",
+            "26.089219"
+          ]
+        ],
+        "StationId": "ANT",
+        "SceneCenterLat": "25.599599",
+        "Producer": "ISRO",
+        "CycleNumber": "48",
+        "SceneNumber": "1",
+        "Imaging_Orbit": "12828",
+        "Instrument": "SAR",
+        "ProdLatLon": [
+          [
+            "91.686715",
+            "26.390520"
+          ],
+          [
+            "93.473227",
+            "26.395763"
+          ],
+          [
+            "93.466999",
+            "24.802864"
+          ],
+          [
+            "91.703994",
+            "24.797980"
+          ],
+          [
+            "91.686715",
+            "26.390520"
+          ]
+        ],
+        "Sat_Spec_Scheme": "SAT_SEN_MODE",
+        "Online": "N",
+        "StripId": "16536",
+        "updated": "2026-05-21 03:12:49",
+        "Scene_Identifier": "12831_12828_16536_1",
+        "Imaging_Date": "11-JUN-2024"
+      }
+    },
+    {
+      "stac_version": "1.0.0",
+      "assets": {
+        "metadata": {
+          "type": "text/plain-text",
+          "title": "metadata",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/11/E04_SAR_MRS_11JUN2024_163112359223_12828_STUC00ZTD_16536_4_DH_A_L_N25399_E092637.meta"
+        },
+        "thumbnail": {
+          "type": "image/jpeg",
+          "title": "thumbnail",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/11/E04_SAR_MRS_11JUN2024_163112359223_12828_STUC00ZTD_16536_4_DH_A_L_N25399_E092637.jpg"
+        }
+      },
+      "bbox": [
+        91.802153,
+        25.812419,
+        93.492029,
+        24.66479
+      ],
+      "links": [
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B/items/E04_SAR_MRS_11JUN2024_163112359223_12828_STUC00ZTD_16536_4_DH_A_L_N25399_E092637"
+        }
+      ],
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              91.802153,
+              25.500305
+            ],
+            [
+              93.309873,
+              25.812419
+            ],
+            [
+              93.492029,
+              24.965792
+            ],
+            [
+              92.039243,
+              24.66479
+            ],
+            [
+              91.802153,
+              25.500305
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "E04_SAR_MRS_11JUN2024_163112359223_12828_STUC00ZTD_16536_4_DH_A_L_N25399_E092637",
+      "collection": "EOS-04_SAR-MRS_L2B",
+      "type": "Feature",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+      ],
+      "properties": {
+        "Polarization": "DH",
+        "Platform": "EOS-04",
+        "NoOfBeams": "8",
+        "Node": "ASCENDING",
+        "InputResolutionAlong": "30.36",
+        "Dumping_Date": "11-JUN-2024",
+        "datetime": "2024-06-11T11:23:59Z",
+        "InputResolutionAcross": "9.59",
+        "GenerationTime": "2024-06-11T18:54:52",
+        "ID": "E04_SAR_MRS_11JUN2024_163112359223_12828_STUC00ZTD_16536_4_DH_A_L_N25399_E092637",
+        "Scene_Identifier_Scheme": "DmpOrbit_ImgOrbit_Strip_Scene",
+        "ProductCode": "STUC00ZTD",
+        "Sat_Spec": "EOS-04_SAR_MRS",
+        "Dumping_Orbit": "12828",
+        "SceneCenterLon": "92.646425",
+        "Mode": "MRS",
+        "Pass_Type": "SSRD",
+        "IncidenceAngle": "29.60307",
+        "Coverage": "P",
+        "Look_dir": "Left",
+        "ImgLatLon": [
+          [
+            "91.802153",
+            "25.500305"
+          ],
+          [
+            "93.309873",
+            "25.812419"
+          ],
+          [
+            "93.492029",
+            "24.965792"
+          ],
+          [
+            "92.039243",
+            "24.664790"
+          ],
+          [
+            "91.802153",
+            "25.500305"
+          ]
+        ],
+        "StationId": "SAN",
+        "SceneCenterLat": "25.242161",
+        "Producer": "ISRO",
+        "CycleNumber": "48",
+        "SceneNumber": "4",
+        "Imaging_Orbit": "12828",
+        "Instrument": "SAR",
+        "ProdLatLon": [
+          [
+            "91.782828",
+            "25.822576"
+          ],
+          [
+            "93.506861",
+            "25.826789"
+          ],
+          [
+            "93.502029",
+            "24.656445"
+          ],
+          [
+            "91.794427",
+            "24.652448"
+          ],
+          [
+            "91.782828",
+            "25.822576"
+          ]
+        ],
+        "Sat_Spec_Scheme": "SAT_SEN_MODE",
+        "Online": "N",
+        "StripId": "16536",
+        "updated": "2026-05-21 19:57:25",
+        "Scene_Identifier": "12828_12828_16536_4",
+        "Imaging_Date": "11-JUN-2024"
+      }
+    },
+    {
+      "stac_version": "1.0.0",
+      "assets": {
+        "metadata": {
+          "type": "text/plain-text",
+          "title": "metadata",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/11/E04_SAR_MRS_11JUN2024_163112338776_12828_STUC00ZTD_16536_3_DH_A_L_N24120_E092955.meta"
+        },
+        "thumbnail": {
+          "type": "image/jpeg",
+          "title": "thumbnail",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/11/E04_SAR_MRS_11JUN2024_163112338776_12828_STUC00ZTD_16536_3_DH_A_L_N24120_E092955.jpg"
+        }
+      },
+      "bbox": [
+        92.0074,
+        25.108174,
+        93.805123,
+        23.387948
+      ],
+      "links": [
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B/items/E04_SAR_MRS_11JUN2024_163112338776_12828_STUC00ZTD_16536_3_DH_A_L_N24120_E092955"
+        }
+      ],
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              92.0074,
+              24.801505
+            ],
+            [
+              93.488612,
+              25.108174
+            ],
+            [
+              93.805123,
+              23.687425
+            ],
+            [
+              92.36093,
+              23.387948
+            ],
+            [
+              92.0074,
+              24.801505
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "E04_SAR_MRS_11JUN2024_163112338776_12828_STUC00ZTD_16536_3_DH_A_L_N24120_E092955",
+      "collection": "EOS-04_SAR-MRS_L2B",
+      "type": "Feature",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+      ],
+      "properties": {
+        "Polarization": "DH",
+        "Platform": "EOS-04",
+        "NoOfBeams": "8",
+        "Node": "ASCENDING",
+        "InputResolutionAlong": "30.36",
+        "Dumping_Date": "11-JUN-2024",
+        "datetime": "2024-06-11T11:23:38Z",
+        "InputResolutionAcross": "9.59",
+        "GenerationTime": "2024-06-11T18:59:37",
+        "ID": "E04_SAR_MRS_11JUN2024_163112338776_12828_STUC00ZTD_16536_3_DH_A_L_N24120_E092955",
+        "Scene_Identifier_Scheme": "DmpOrbit_ImgOrbit_Strip_Scene",
+        "ProductCode": "STUC00ZTD",
+        "Sat_Spec": "EOS-04_SAR_MRS",
+        "Dumping_Orbit": "12828",
+        "SceneCenterLon": "92.915193",
+        "Mode": "MRS",
+        "Pass_Type": "SSRD",
+        "IncidenceAngle": "29.35558",
+        "Coverage": "P",
+        "Look_dir": "Left",
+        "ImgLatLon": [
+          [
+            "92.007400",
+            "24.801505"
+          ],
+          [
+            "93.488612",
+            "25.108174"
+          ],
+          [
+            "93.805123",
+            "23.687425"
+          ],
+          [
+            "92.360930",
+            "23.387948"
+          ],
+          [
+            "92.007400",
+            "24.801505"
+          ]
+        ],
+        "StationId": "SAN",
+        "SceneCenterLat": "24.250913",
+        "Producer": "ISRO",
+        "CycleNumber": "48",
+        "SceneNumber": "3",
+        "Imaging_Orbit": "12828",
+        "Instrument": "SAR",
+        "ProdLatLon": [
+          [
+            "92.004203",
+            "25.109112"
+          ],
+          [
+            "93.825218",
+            "25.110160"
+          ],
+          [
+            "93.814175",
+            "23.387035"
+          ],
+          [
+            "92.017529",
+            "23.386067"
+          ],
+          [
+            "92.004203",
+            "25.109112"
+          ]
+        ],
+        "Sat_Spec_Scheme": "SAT_SEN_MODE",
+        "Online": "Y",
+        "StripId": "16536",
+        "updated": "2026-05-21 19:57:33",
+        "Scene_Identifier": "12828_12828_16536_3",
+        "Imaging_Date": "11-JUN-2024"
+      }
+    },
+    {
+      "stac_version": "1.0.0",
+      "assets": {
+        "metadata": {
+          "type": "text/plain-text",
+          "title": "metadata",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/08/E04_SAR_MRS_08JUN2024_160115710767_12783_STUC00ZTD_16459_3_DH_A_R_N25303_E091991.meta"
+        },
+        "thumbnail": {
+          "type": "image/jpeg",
+          "title": "thumbnail",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/08/E04_SAR_MRS_08JUN2024_160115710767_12783_STUC00ZTD_16459_3_DH_A_R_N25303_E091991.jpg"
+        }
+      },
+      "bbox": [
+        91.193989,
+        26.005524,
+        92.927706,
+        24.361295
+      ],
+      "links": [
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B/items/E04_SAR_MRS_08JUN2024_160115710767_12783_STUC00ZTD_16459_3_DH_A_R_N25303_E091991"
+        }
+      ],
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              91.193989,
+              25.780274
+            ],
+            [
+              92.671795,
+              26.005524
+            ],
+            [
+              92.927706,
+              24.589464
+            ],
+            [
+              91.460609,
+              24.361295
+            ],
+            [
+              91.193989,
+              25.780274
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "E04_SAR_MRS_08JUN2024_160115710767_12783_STUC00ZTD_16459_3_DH_A_R_N25303_E091991",
+      "collection": "EOS-04_SAR-MRS_L2B",
+      "type": "Feature",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+      ],
+      "properties": {
+        "Polarization": "DH",
+        "Platform": "EOS-04",
+        "NoOfBeams": "8",
+        "Node": "ASCENDING",
+        "InputResolutionAlong": "30.36",
+        "Dumping_Date": "08-JUN-2024",
+        "datetime": "2024-06-08T11:57:10Z",
+        "InputResolutionAcross": "9.59",
+        "GenerationTime": "2024-06-09T03:31:37",
+        "ID": "E04_SAR_MRS_08JUN2024_160115710767_12783_STUC00ZTD_16459_3_DH_A_R_N25303_E091991",
+        "Scene_Identifier_Scheme": "DmpOrbit_ImgOrbit_Strip_Scene",
+        "ProductCode": "STUC00ZTD",
+        "Sat_Spec": "EOS-04_SAR_MRS",
+        "Dumping_Orbit": "12785",
+        "SceneCenterLon": "92.066034",
+        "Mode": "MRS",
+        "Pass_Type": "SSRD",
+        "IncidenceAngle": "46.57442",
+        "Coverage": "F",
+        "Look_dir": "Right",
+        "ImgLatLon": [
+          [
+            "91.193989",
+            "25.780274"
+          ],
+          [
+            "92.671795",
+            "26.005524"
+          ],
+          [
+            "92.927706",
+            "24.589464"
+          ],
+          [
+            "91.460609",
+            "24.361295"
+          ],
+          [
+            "91.193989",
+            "25.780274"
+          ]
+        ],
+        "StationId": "ANT",
+        "SceneCenterLat": "25.182742",
+        "Producer": "ISRO",
+        "CycleNumber": "48",
+        "SceneNumber": "3",
+        "Imaging_Orbit": "12783",
+        "Instrument": "SAR",
+        "ProdLatLon": [
+          [
+            "91.187670",
+            "25.995113"
+          ],
+          [
+            "92.932048",
+            "26.006450"
+          ],
+          [
+            "92.932953",
+            "24.364641"
+          ],
+          [
+            "91.211783",
+            "24.354114"
+          ],
+          [
+            "91.187670",
+            "25.995113"
+          ]
+        ],
+        "Sat_Spec_Scheme": "SAT_SEN_MODE",
+        "Online": "N",
+        "StripId": "16459",
+        "updated": "2026-05-21 22:32:16",
+        "Scene_Identifier": "12785_12783_16459_3",
+        "Imaging_Date": "08-JUN-2024"
+      }
+    },
+    {
+      "stac_version": "1.0.0",
+      "assets": {
+        "metadata": {
+          "type": "text/plain-text",
+          "title": "metadata",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/08/E04_SAR_MRS_08JUN2024_160115650376_12783_STUC00ZTD_16459_2_DH_A_R_N24027_E092226.meta"
+        },
+        "thumbnail": {
+          "type": "image/jpeg",
+          "title": "thumbnail",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/08/E04_SAR_MRS_08JUN2024_160115650376_12783_STUC00ZTD_16459_2_DH_A_R_N24027_E092226.jpg"
+        }
+      },
+      "bbox": [
+        91.428776,
+        24.729468,
+        93.165937,
+        23.082601
+      ],
+      "links": [
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B/items/E04_SAR_MRS_08JUN2024_160115650376_12783_STUC00ZTD_16459_2_DH_A_R_N24027_E092226"
+        }
+      ],
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              91.428776,
+              24.500732
+            ],
+            [
+              92.902222,
+              24.729468
+            ],
+            [
+              93.165937,
+              23.314371
+            ],
+            [
+              91.701489,
+              23.082601
+            ],
+            [
+              91.428776,
+              24.500732
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "E04_SAR_MRS_08JUN2024_160115650376_12783_STUC00ZTD_16459_2_DH_A_R_N24027_E092226",
+      "collection": "EOS-04_SAR-MRS_L2B",
+      "type": "Feature",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+      ],
+      "properties": {
+        "Polarization": "DH",
+        "Platform": "EOS-04",
+        "NoOfBeams": "8",
+        "Node": "ASCENDING",
+        "InputResolutionAlong": "30.36",
+        "Dumping_Date": "08-JUN-2024",
+        "datetime": "2024-06-08T11:56:50Z",
+        "InputResolutionAcross": "9.59",
+        "GenerationTime": "2024-06-09T03:35:22",
+        "ID": "E04_SAR_MRS_08JUN2024_160115650376_12783_STUC00ZTD_16459_2_DH_A_R_N24027_E092226",
+        "Scene_Identifier_Scheme": "DmpOrbit_ImgOrbit_Strip_Scene",
+        "ProductCode": "STUC00ZTD",
+        "Sat_Spec": "EOS-04_SAR_MRS",
+        "Dumping_Orbit": "12785",
+        "SceneCenterLon": "92.305310",
+        "Mode": "MRS",
+        "Pass_Type": "SSRD",
+        "IncidenceAngle": "46.60112",
+        "Coverage": "F",
+        "Look_dir": "Right",
+        "ImgLatLon": [
+          [
+            "91.428776",
+            "24.500732"
+          ],
+          [
+            "92.902222",
+            "24.729468"
+          ],
+          [
+            "93.165937",
+            "23.314371"
+          ],
+          [
+            "91.701489",
+            "23.082601"
+          ],
+          [
+            "91.428776",
+            "24.500732"
+          ]
+        ],
+        "StationId": "ANT",
+        "SceneCenterLat": "23.907950",
+        "Producer": "ISRO",
+        "CycleNumber": "48",
+        "SceneNumber": "2",
+        "Imaging_Orbit": "12783",
+        "Instrument": "SAR",
+        "ProdLatLon": [
+          [
+            "91.419970",
+            "24.730241"
+          ],
+          [
+            "93.181957",
+            "24.738454"
+          ],
+          [
+            "93.179650",
+            "23.080117"
+          ],
+          [
+            "91.439995",
+            "23.072518"
+          ],
+          [
+            "91.419970",
+            "24.730241"
+          ]
+        ],
+        "Sat_Spec_Scheme": "SAT_SEN_MODE",
+        "Online": "N",
+        "StripId": "16459",
+        "updated": "2026-05-21 03:51:14",
+        "Scene_Identifier": "12785_12783_16459_2",
+        "Imaging_Date": "08-JUN-2024"
+      }
+    },
+    {
+      "stac_version": "1.0.0",
+      "assets": {
+        "metadata": {
+          "type": "text/plain-text",
+          "title": "metadata",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/07/E04_SAR_MRS_07JUN2024_159234946786_12775_STUC00ZTD_16445_8_DH_D_R_N25120_E092353.meta"
+        },
+        "thumbnail": {
+          "type": "image/jpeg",
+          "title": "thumbnail",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/07/E04_SAR_MRS_07JUN2024_159234946786_12775_STUC00ZTD_16445_8_DH_D_R_N25120_E092353.jpg"
+        }
+      },
+      "bbox": [
+        91.374658,
+        25.820859,
+        93.195813,
+        24.151219
+      ],
+      "links": [
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B/items/E04_SAR_MRS_07JUN2024_159234946786_12775_STUC00ZTD_16445_8_DH_D_R_N25120_E092353"
+        }
+      ],
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              91.638805,
+              25.820859
+            ],
+            [
+              93.195813,
+              25.569446
+            ],
+            [
+              92.902381,
+              24.151219
+            ],
+            [
+              91.374658,
+              24.401891
+            ],
+            [
+              91.638805,
+              25.820859
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "E04_SAR_MRS_07JUN2024_159234946786_12775_STUC00ZTD_16445_8_DH_D_R_N25120_E092353",
+      "collection": "EOS-04_SAR-MRS_L2B",
+      "type": "Feature",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+      ],
+      "properties": {
+        "Polarization": "DH",
+        "Platform": "EOS-04",
+        "NoOfBeams": "8",
+        "Node": "DESCENDING",
+        "InputResolutionAlong": "30.36",
+        "Dumping_Date": "08-JUN-2024",
+        "datetime": "2024-06-07T23:49:46Z",
+        "InputResolutionAcross": "9.59",
+        "GenerationTime": "2024-08-08T17:50:51",
+        "ID": "E04_SAR_MRS_07JUN2024_159234946786_12775_STUC00ZTD_16445_8_DH_D_R_N25120_E092353",
+        "Scene_Identifier_Scheme": "DmpOrbit_ImgOrbit_Strip_Scene",
+        "ProductCode": "STUC00ZTD",
+        "Sat_Spec": "EOS-04_SAR_MRS",
+        "Dumping_Orbit": "12776",
+        "SceneCenterLon": "92.281571",
+        "Mode": "MRS",
+        "Pass_Type": "SSRD",
+        "IncidenceAngle": "37.77907",
+        "Coverage": "F",
+        "Look_dir": "Right",
+        "ImgLatLon": [
+          [
+            "91.638805",
+            "25.820859"
+          ],
+          [
+            "93.195813",
+            "25.569446"
+          ],
+          [
+            "92.902381",
+            "24.151219"
+          ],
+          [
+            "91.374658",
+            "24.401891"
+          ],
+          [
+            "91.638805",
+            "25.820859"
+          ]
+        ],
+        "StationId": "S03",
+        "SceneCenterLat": "24.980759",
+        "Producer": "ISRO",
+        "CycleNumber": "48",
+        "SceneNumber": "8",
+        "Imaging_Orbit": "12775",
+        "Instrument": "SAR",
+        "ProdLatLon": [
+          [
+            "91.351952",
+            "25.818330"
+          ],
+          [
+            "93.201550",
+            "25.827533"
+          ],
+          [
+            "93.198812",
+            "24.136921"
+          ],
+          [
+            "91.374321",
+            "24.128398"
+          ],
+          [
+            "91.351952",
+            "25.818330"
+          ]
+        ],
+        "Sat_Spec_Scheme": "SAT_SEN_MODE",
+        "Online": "N",
+        "StripId": "16445",
+        "updated": "2026-05-21 03:56:16",
+        "Scene_Identifier": "12776_12775_16445_8",
+        "Imaging_Date": "07-JUN-2024"
+      }
+    },
+    {
+      "stac_version": "1.0.0",
+      "assets": {
+        "metadata": {
+          "type": "text/plain-text",
+          "title": "metadata",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/03/E04_SAR_MRS_03JUN2024_155111826529_12707_STUC00ZTD_16333_6_DH_A_L_N25124_E092668.meta"
+        },
+        "thumbnail": {
+          "type": "image/jpeg",
+          "title": "thumbnail",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/03/E04_SAR_MRS_03JUN2024_155111826529_12707_STUC00ZTD_16333_6_DH_A_L_N25124_E092668.jpg"
+        }
+      },
+      "bbox": [
+        91.701587,
+        26.102786,
+        93.534795,
+        24.373227
+      ],
+      "links": [
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B/items/E04_SAR_MRS_03JUN2024_155111826529_12707_STUC00ZTD_16333_6_DH_A_L_N25124_E092668"
+        }
+      ],
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              91.701587,
+              25.780497
+            ],
+            [
+              93.184447,
+              26.102786
+            ],
+            [
+              93.534795,
+              24.687973
+            ],
+            [
+              92.085067,
+              24.373227
+            ],
+            [
+              91.701587,
+              25.780497
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "E04_SAR_MRS_03JUN2024_155111826529_12707_STUC00ZTD_16333_6_DH_A_L_N25124_E092668",
+      "collection": "EOS-04_SAR-MRS_L2B",
+      "type": "Feature",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+      ],
+      "properties": {
+        "Polarization": "DH",
+        "Platform": "EOS-04",
+        "NoOfBeams": "8",
+        "Node": "ASCENDING",
+        "InputResolutionAlong": "30.36",
+        "Dumping_Date": "03-JUN-2024",
+        "datetime": "2024-06-03T11:18:26Z",
+        "InputResolutionAcross": "9.59",
+        "GenerationTime": "2024-09-30T13:13:38",
+        "ID": "E04_SAR_MRS_03JUN2024_155111826529_12707_STUC00ZTD_16333_6_DH_A_L_N25124_E092668",
+        "Scene_Identifier_Scheme": "DmpOrbit_ImgOrbit_Strip_Scene",
+        "ProductCode": "STUC00ZTD",
+        "Sat_Spec": "EOS-04_SAR_MRS",
+        "Dumping_Orbit": "12714",
+        "SceneCenterLon": "92.619642",
+        "Mode": "MRS",
+        "Pass_Type": "SSRD",
+        "IncidenceAngle": "41.00669",
+        "Coverage": "F",
+        "Look_dir": "Left",
+        "ImgLatLon": [
+          [
+            "91.701587",
+            "25.780497"
+          ],
+          [
+            "93.184447",
+            "26.102786"
+          ],
+          [
+            "93.534795",
+            "24.687973"
+          ],
+          [
+            "92.085067",
+            "24.373227"
+          ],
+          [
+            "91.701587",
+            "25.780497"
+          ]
+        ],
+        "StationId": "S02",
+        "SceneCenterLat": "25.233967",
+        "Producer": "ISRO",
+        "CycleNumber": "48",
+        "SceneNumber": "6",
+        "Imaging_Orbit": "12707",
+        "Instrument": "SAR",
+        "ProdLatLon": [
+          [
+            "91.689999",
+            "26.098039"
+          ],
+          [
+            "93.544048",
+            "26.102962"
+          ],
+          [
+            "93.536361",
+            "24.363708"
+          ],
+          [
+            "91.708502",
+            "24.359157"
+          ],
+          [
+            "91.689999",
+            "26.098039"
+          ]
+        ],
+        "Sat_Spec_Scheme": "SAT_SEN_MODE",
+        "Online": "N",
+        "StripId": "16333",
+        "updated": "2026-05-21 04:26:08",
+        "Scene_Identifier": "12714_12707_16333_6",
+        "Imaging_Date": "03-JUN-2024"
+      }
+    },
+    {
+      "stac_version": "1.0.0",
+      "assets": {
+        "metadata": {
+          "type": "text/plain-text",
+          "title": "metadata",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/03/E04_SAR_MRS_03JUN2024_155111806082_12707_STUC00ZTD_16333_5_DH_A_L_N23847_E092999.meta"
+        },
+        "thumbnail": {
+          "type": "image/jpeg",
+          "title": "thumbnail",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/03/E04_SAR_MRS_03JUN2024_155111806082_12707_STUC00ZTD_16333_5_DH_A_L_N23847_E092999.jpg"
+        }
+      },
+      "bbox": [
+        92.056719,
+        24.829254,
+        93.873877,
+        23.100472
+      ],
+      "links": [
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B/items/E04_SAR_MRS_03JUN2024_155111806082_12707_STUC00ZTD_16333_5_DH_A_L_N23847_E092999"
+        }
+      ],
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              92.056719,
+              24.510715
+            ],
+            [
+              93.52455,
+              24.829254
+            ],
+            [
+              93.873877,
+              23.414898
+            ],
+            [
+              92.42301,
+              23.100472
+            ],
+            [
+              92.056719,
+              24.510715
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "E04_SAR_MRS_03JUN2024_155111806082_12707_STUC00ZTD_16333_5_DH_A_L_N23847_E092999",
+      "collection": "EOS-04_SAR-MRS_L2B",
+      "type": "Feature",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+      ],
+      "properties": {
+        "Polarization": "DH",
+        "Platform": "EOS-04",
+        "NoOfBeams": "8",
+        "Node": "ASCENDING",
+        "InputResolutionAlong": "30.36",
+        "Dumping_Date": "03-JUN-2024",
+        "datetime": "2024-06-03T11:18:06Z",
+        "InputResolutionAcross": "9.59",
+        "GenerationTime": "2024-09-30T13:09:13",
+        "ID": "E04_SAR_MRS_03JUN2024_155111806082_12707_STUC00ZTD_16333_5_DH_A_L_N23847_E092999",
+        "Scene_Identifier_Scheme": "DmpOrbit_ImgOrbit_Strip_Scene",
+        "ProductCode": "STUC00ZTD",
+        "Sat_Spec": "EOS-04_SAR_MRS",
+        "Dumping_Orbit": "12714",
+        "SceneCenterLon": "92.968458",
+        "Mode": "MRS",
+        "Pass_Type": "SSRD",
+        "IncidenceAngle": "40.83313",
+        "Coverage": "F",
+        "Look_dir": "Left",
+        "ImgLatLon": [
+          [
+            "92.056719",
+            "24.510715"
+          ],
+          [
+            "93.524550",
+            "24.829254"
+          ],
+          [
+            "93.873877",
+            "23.414898"
+          ],
+          [
+            "92.423010",
+            "23.100472"
+          ],
+          [
+            "92.056719",
+            "24.510715"
+          ]
+        ],
+        "StationId": "S02",
+        "SceneCenterLat": "23.966420",
+        "Producer": "ISRO",
+        "CycleNumber": "48",
+        "SceneNumber": "5",
+        "Imaging_Orbit": "12707",
+        "Instrument": "SAR",
+        "ProdLatLon": [
+          [
+            "92.042047",
+            "24.833034"
+          ],
+          [
+            "93.894624",
+            "24.833427"
+          ],
+          [
+            "93.882698",
+            "23.094012"
+          ],
+          [
+            "92.054817",
+            "23.093650"
+          ],
+          [
+            "92.042047",
+            "24.833034"
+          ]
+        ],
+        "Sat_Spec_Scheme": "SAT_SEN_MODE",
+        "Online": "Y",
+        "StripId": "16333",
+        "updated": "2026-05-22 04:28:52",
+        "Scene_Identifier": "12714_12707_16333_5",
+        "Imaging_Date": "03-JUN-2024"
+      }
+    },
+    {
+      "stac_version": "1.0.0",
+      "assets": {
+        "metadata": {
+          "type": "text/plain-text",
+          "title": "metadata",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/02/E04_SAR_MRS_02JUN2024_154112939239_12692_STUC00ZTD_16306_5_DH_A_L_N25468_E091575.meta"
+        },
+        "thumbnail": {
+          "type": "image/jpeg",
+          "title": "thumbnail",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/02/E04_SAR_MRS_02JUN2024_154112939239_12692_STUC00ZTD_16306_5_DH_A_L_N25468_E091575.jpg"
+        }
+      },
+      "bbox": [
+        90.622209,
+        26.458021,
+        92.451285,
+        24.739223
+      ],
+      "links": [
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B/items/E04_SAR_MRS_02JUN2024_154112939239_12692_STUC00ZTD_16306_5_DH_A_L_N25468_E091575"
+        }
+      ],
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              90.622209,
+              26.15234
+            ],
+            [
+              92.120229,
+              26.458021
+            ],
+            [
+              92.451285,
+              25.040017
+            ],
+            [
+              90.980539,
+              24.739223
+            ],
+            [
+              90.622209,
+              26.15234
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "E04_SAR_MRS_02JUN2024_154112939239_12692_STUC00ZTD_16306_5_DH_A_L_N25468_E091575",
+      "collection": "EOS-04_SAR-MRS_L2B",
+      "type": "Feature",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+      ],
+      "properties": {
+        "Polarization": "DH",
+        "Platform": "EOS-04",
+        "NoOfBeams": "8",
+        "Node": "ASCENDING",
+        "InputResolutionAlong": "30.36",
+        "Dumping_Date": "02-JUN-2024",
+        "datetime": "2024-06-02T11:29:39Z",
+        "InputResolutionAcross": "9.59",
+        "GenerationTime": "2024-06-03T12:52:00",
+        "ID": "E04_SAR_MRS_02JUN2024_154112939239_12692_STUC00ZTD_16306_5_DH_A_L_N25468_E091575",
+        "Scene_Identifier_Scheme": "DmpOrbit_ImgOrbit_Strip_Scene",
+        "ProductCode": "STUC00ZTD",
+        "Sat_Spec": "EOS-04_SAR_MRS",
+        "Dumping_Orbit": "12697",
+        "SceneCenterLon": "91.543129",
+        "Mode": "MRS",
+        "Pass_Type": "SSRD",
+        "IncidenceAngle": "25.94415",
+        "Coverage": "F",
+        "Look_dir": "Left",
+        "ImgLatLon": [
+          [
+            "90.622209",
+            "26.152340"
+          ],
+          [
+            "92.120229",
+            "26.458021"
+          ],
+          [
+            "92.451285",
+            "25.040017"
+          ],
+          [
+            "90.980539",
+            "24.739223"
+          ],
+          [
+            "90.622209",
+            "26.152340"
+          ]
+        ],
+        "StationId": "S04",
+        "SceneCenterLat": "25.592939",
+        "Producer": "ISRO",
+        "CycleNumber": "48",
+        "SceneNumber": "5",
+        "Imaging_Orbit": "12692",
+        "Instrument": "SAR",
+        "ProdLatLon": [
+          [
+            "90.603250",
+            "26.441462"
+          ],
+          [
+            "92.462307",
+            "26.460544"
+          ],
+          [
+            "92.469957",
+            "24.737629"
+          ],
+          [
+            "90.637314",
+            "24.719958"
+          ],
+          [
+            "90.603250",
+            "26.441462"
+          ]
+        ],
+        "Sat_Spec_Scheme": "SAT_SEN_MODE",
+        "Online": "Y",
+        "StripId": "16306",
+        "updated": "2026-05-22 01:11:05",
+        "Scene_Identifier": "12697_12692_16306_5",
+        "Imaging_Date": "02-JUN-2024"
+      }
+    },
+    {
+      "stac_version": "1.0.0",
+      "assets": {
+        "metadata": {
+          "type": "text/plain-text",
+          "title": "metadata",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/02/E04_SAR_MRS_02JUN2024_154112918790_12692_STUC00ZTD_16306_4_DH_A_L_N24188_E091890.meta"
+        },
+        "thumbnail": {
+          "type": "image/jpeg",
+          "title": "thumbnail",
+          "href": "https://bhoonidhi.nrsc.gov.in//stac/PRODUCTJPGS/E04/SAR-MRS/2024/JUN/02/E04_SAR_MRS_02JUN2024_154112918790_12692_STUC00ZTD_16306_4_DH_A_L_N24188_E091890.jpg"
+        }
+      },
+      "bbox": [
+        90.947464,
+        25.177354,
+        92.731829,
+        23.461416
+      ],
+      "links": [
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "href": "https://bhoonidhi-api.nrsc.gov.in/data/collections/EOS-04_SAR-MRS_L2B/items/E04_SAR_MRS_02JUN2024_154112918790_12692_STUC00ZTD_16306_4_DH_A_L_N24188_E091890"
+        }
+      ],
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              90.947464,
+              24.875592
+            ],
+            [
+              92.423334,
+              25.177354
+            ],
+            [
+              92.731829,
+              23.755334
+            ],
+            [
+              91.297636,
+              23.461416
+            ],
+            [
+              90.947464,
+              24.875592
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "E04_SAR_MRS_02JUN2024_154112918790_12692_STUC00ZTD_16306_4_DH_A_L_N24188_E091890",
+      "collection": "EOS-04_SAR-MRS_L2B",
+      "type": "Feature",
+      "stac_extensions": [
+        "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+      ],
+      "properties": {
+        "Polarization": "DH",
+        "Platform": "EOS-04",
+        "NoOfBeams": "8",
+        "Node": "ASCENDING",
+        "InputResolutionAlong": "30.36",
+        "Dumping_Date": "02-JUN-2024",
+        "datetime": "2024-06-02T11:29:18Z",
+        "InputResolutionAcross": "9.59",
+        "GenerationTime": "2024-06-03T12:52:52",
+        "ID": "E04_SAR_MRS_02JUN2024_154112918790_12692_STUC00ZTD_16306_4_DH_A_L_N24188_E091890",
+        "Scene_Identifier_Scheme": "DmpOrbit_ImgOrbit_Strip_Scene",
+        "ProductCode": "STUC00ZTD",
+        "Sat_Spec": "EOS-04_SAR_MRS",
+        "Dumping_Orbit": "12697",
+        "SceneCenterLon": "91.841778",
+        "Mode": "MRS",
+        "Pass_Type": "SSRD",
+        "IncidenceAngle": "26.00715",
+        "Coverage": "F",
+        "Look_dir": "Left",
+        "ImgLatLon": [
+          [
+            "90.947464",
+            "24.875592"
+          ],
+          [
+            "92.423334",
+            "25.177354"
+          ],
+          [
+            "92.731829",
+            "23.755334"
+          ],
+          [
+            "91.297636",
+            "23.461416"
+          ],
+          [
+            "90.947464",
+            "24.875592"
+          ]
+        ],
+        "StationId": "S04",
+        "SceneCenterLat": "24.327805",
+        "Producer": "ISRO",
+        "CycleNumber": "48",
+        "SceneNumber": "4",
+        "Imaging_Orbit": "12692",
+        "Instrument": "SAR",
+        "ProdLatLon": [
+          [
+            "90.932066",
+            "25.179286"
+          ],
+          [
+            "92.735984",
+            "25.193498"
+          ],
+          [
+            "92.739531",
+            "23.470233"
+          ],
+          [
+            "90.959825",
+            "23.457111"
+          ],
+          [
+            "90.932066",
+            "25.179286"
+          ]
+        ],
+        "Sat_Spec_Scheme": "SAT_SEN_MODE",
+        "Online": "Y",
+        "StripId": "16306",
+        "updated": "2026-05-21 04:31:24",
+        "Scene_Identifier": "12697_12692_16306_4",
+        "Imaging_Date": "02-JUN-2024"
+      }
+    }
+  ]
+}

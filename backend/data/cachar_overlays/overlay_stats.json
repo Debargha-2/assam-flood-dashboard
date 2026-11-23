@@ -1,0 +1,37 @@
+{
+  "district": "Cachar (Barak Valley)",
+  "bounds": [
+    [
+      24.5,
+      92.3
+    ],
+    [
+      25.05,
+      93.1
+    ]
+  ],
+  "grid_resolution": [
+    1981,
+    2881
+  ],
+  "layers": {
+    "pinn_predicted": {
+      "label": "CNN-PINN Physics-Informed Flood Risk",
+      "url": "/api/cachar/overlay/pinn_predicted",
+      "flooded_pixels": 1023319,
+      "inundated_area_km2": 920.99
+    },
+    "sar_2022": {
+      "label": "June 2022 Peak Flood (EOS-04 SAR)",
+      "url": "/api/cachar/overlay/sar_2022",
+      "flooded_pixels": 787251,
+      "inundated_area_km2": 708.53
+    },
+    "sar_2024": {
+      "label": "June 2024 Peak Flood (EOS-04 SAR)",
+      "url": "/api/cachar/overlay/sar_2024",
+      "flooded_pixels": 703095,
+      "inundated_area_km2": 632.79
+    }
+  }
+}

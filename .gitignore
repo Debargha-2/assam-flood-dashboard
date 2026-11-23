@@ -1,0 +1,13 @@
+.env
+backend/.env
+frontend/.env
+__pycache__/
+*.pyc
+*.pyo
+.vscode/
+frontend/node_modules/
+frontend/dist/
+backend/data/cachar_overlays/*.png
+backend/data/cachar_overlays/*.npy
+*.tif
+*.tiff

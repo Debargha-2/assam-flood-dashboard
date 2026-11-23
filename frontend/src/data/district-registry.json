@@ -1,0 +1,370 @@
+{
+  "state": "Assam",
+  "district_count": 33,
+  "description": "Canonical district registry derived from the project GeoJSON. Centroids are representative points calculated from district boundary geometries; they are suitable for map centering, not administrative headquarters.",
+  "districts": [
+    {
+      "district_id": "324",
+      "district_name": "Baksa",
+      "district_key": "baksa",
+      "state": "Assam",
+      "centroid": {
+        "latitude": 26.628302,
+        "longitude": 91.462804
+      },
+      "boundary_source": "frontend/src/data/assam-districts.json"
+    },
+    {
+      "district_id": "303",
+      "district_name": "Barpeta",
+      "district_key": "barpeta",
+      "state": "Assam",
+      "centroid": {
+        "latitude": 26.377676,
+        "longitude": 91.0491
+      },
+      "boundary_source": "frontend/src/data/assam-districts.json"
+    },
+    {
+      "district_id": "756",
+      "district_name": "Biswanath",
+      "district_key": "biswanath",
+      "state": "Assam",
+      "centroid": {
+        "latitude": 26.792776,
+        "longitude": 93.359712
+      },
+      "boundary_source": "frontend/src/data/assam-districts.json"
+    },
+    {
+      "district_id": "319",
+      "district_name": "Bongaigaon",
+      "district_key": "bongaigaon",
+      "state": "Assam",
+      "centroid": {
+        "latitude": 26.351706,
+        "longitude": 90.631135
+      },
+      "boundary_source": "frontend/src/data/assam-districts.json"
+    },
+    {
+      "district_id": "316",
+      "district_name": "Cachar",
+      "district_key": "cachar",
+      "state": "Assam",
+      "centroid": {
+        "latitude": 24.773337,
+        "longitude": 92.88325
+      },
+      "boundary_source": "frontend/src/data/assam-districts.json"
+    },
+    {
+      "district_id": "755",
+      "district_name": "Charaideo",
+      "district_key": "charaideo",
+      "state": "Assam",
+      "centroid": {
+        "latitude": 27.079265,
+        "longitude": 95.073318
+      },
+      "boundary_source": "frontend/src/data/assam-districts.json"
+    },
+    {
+      "district_id": "320",
+      "district_name": "Chirang",
+      "district_key": "chirang",
+      "state": "Assam",
+      "centroid": {
+        "latitude": 26.665127,
+        "longitude": 90.627892
+      },
+      "boundary_source": "frontend/src/data/assam-districts.json"
+    },
+    {
+      "district_id": "325",
+      "district_name": "Darrang",
+      "district_key": "darrang",
+      "state": "Assam",
+      "centroid": {
+        "latitude": 26.436623,
+        "longitude": 92.004512
+      },
+      "boundary_source": "frontend/src/data/assam-districts.json"
+    },
+    {
+      "district_id": "308",
+      "district_name": "Dhemaji",
+      "district_key": "dhemaji",
+      "state": "Assam",
+      "centroid": {
+        "latitude": 27.593709,
+        "longitude": 94.726614
+      },
+      "boundary_source": "frontend/src/data/assam-districts.json"
+    },
+    {
+      "district_id": "301",
+      "district_name": "Dhubri",
+      "district_key": "dhubri",
+      "state": "Assam",
+      "centroid": {
+        "latitude": 26.130897,
+        "longitude": 90.11905
+      },
+      "boundary_source": "frontend/src/data/assam-districts.json"
+    },
+    {
+      "district_id": "310",
+      "district_name": "Dibrugarh",
+      "district_key": "dibrugarh",
+      "state": "Assam",
+      "centroid": {
+        "latitude": 27.399281,
+        "longitude": 94.997587
+      },
+      "boundary_source": "frontend/src/data/assam-districts.json"
+    },
+    {
+      "district_id": "315",
+      "district_name": "Dima Hasao",
+      "district_key": "dima_hasao",
+      "state": "Assam",
+      "centroid": {
+        "latitude": 25.39743,
+        "longitude": 93.079736
+      },
+      "boundary_source": "frontend/src/data/assam-districts.json"
+    },
+    {
+      "district_id": "302",
+      "district_name": "Goalpara",
+      "district_key": "goalpara",
+      "state": "Assam",
+      "centroid": {
+        "latitude": 26.056423,
+        "longitude": 90.589156
+      },
+      "boundary_source": "frontend/src/data/assam-districts.json"
+    },
+    {
+      "district_id": "313",
+      "district_name": "Golaghat",
+      "district_key": "golaghat",
+      "state": "Assam",
+      "centroid": {
+        "latitude": 26.363111,
+        "longitude": 94.010684
+      },
+      "boundary_source": "frontend/src/data/assam-districts.json"
+    },
+    {
+      "district_id": "318",
+      "district_name": "Hailakandi",
+      "district_key": "hailakandi",
+      "state": "Assam",
+      "centroid": {
+        "latitude": 24.48465,
+        "longitude": 92.627389
+      },
+      "boundary_source": "frontend/src/data/assam-districts.json"
+    },
+    {
+      "district_id": "757",
+      "district_name": "Hojai",
+      "district_key": "hojai",
+      "state": "Assam",
+      "centroid": {
+        "latitude": 25.961064,
+        "longitude": 92.979679
+      },
+      "boundary_source": "frontend/src/data/assam-districts.json"
+    },
+    {
+      "district_id": "312",
+      "district_name": "Jorhat",
+      "district_key": "jorhat",
+      "state": "Assam",
+      "centroid": {
+        "latitude": 26.647264,
+        "longitude": 94.275062
+      },
+      "boundary_source": "frontend/src/data/assam-districts.json"
+    },
+    {
+      "district_id": "321",
+      "district_name": "Kamrup",
+      "district_key": "kamrup",
+      "state": "Assam",
+      "centroid": {
+        "latitude": 26.124164,
+        "longitude": 91.300099
+      },
+      "boundary_source": "frontend/src/data/assam-districts.json"
+    },
+    {
+      "district_id": "322",
+      "district_name": "Kamrup Metropolitan",
+      "district_key": "kamrup_metropolitan",
+      "state": "Assam",
+      "centroid": {
+        "latitude": 26.13337,
+        "longitude": 91.86452
+      },
+      "boundary_source": "frontend/src/data/assam-districts.json"
+    },
+    {
+      "district_id": "314",
+      "district_name": "Karbi Anglong",
+      "district_key": "karbi_anglong",
+      "state": "Assam",
+      "centroid": {
+        "latitude": 26.074698,
+        "longitude": 93.456443
+      },
+      "boundary_source": "frontend/src/data/assam-districts.json"
+    },
+    {
+      "district_id": "317",
+      "district_name": "Karimganj",
+      "district_key": "karimganj",
+      "state": "Assam",
+      "centroid": {
+        "latitude": 24.581795,
+        "longitude": 92.374081
+      },
+      "boundary_source": "frontend/src/data/assam-districts.json"
+    },
+    {
+      "district_id": "300",
+      "district_name": "Kokrajhar",
+      "district_key": "kokrajhar",
+      "state": "Assam",
+      "centroid": {
+        "latitude": 26.488424,
+        "longitude": 90.120038
+      },
+      "boundary_source": "frontend/src/data/assam-districts.json"
+    },
+    {
+      "district_id": "307",
+      "district_name": "Lakhimpur",
+      "district_key": "lakhimpur",
+      "state": "Assam",
+      "centroid": {
+        "latitude": 27.172838,
+        "longitude": 94.18899
+      },
+      "boundary_source": "frontend/src/data/assam-districts.json"
+    },
+    {
+      "district_id": "760",
+      "district_name": "Majuli",
+      "district_key": "majuli",
+      "state": "Assam",
+      "centroid": {
+        "latitude": 27.017708,
+        "longitude": 94.329081
+      },
+      "boundary_source": "frontend/src/data/assam-districts.json"
+    },
+    {
+      "district_id": "304",
+      "district_name": "Morigaon",
+      "district_key": "morigaon",
+      "state": "Assam",
+      "centroid": {
+        "latitude": 26.295783,
+        "longitude": 92.295254
+      },
+      "boundary_source": "frontend/src/data/assam-districts.json"
+    },
+    {
+      "district_id": "305",
+      "district_name": "Nagaon",
+      "district_key": "nagaon",
+      "state": "Assam",
+      "centroid": {
+        "latitude": 26.334119,
+        "longitude": 92.754282
+      },
+      "boundary_source": "frontend/src/data/assam-districts.json"
+    },
+    {
+      "district_id": "323",
+      "district_name": "Nalbari",
+      "district_key": "nalbari",
+      "state": "Assam",
+      "centroid": {
+        "latitude": 26.347859,
+        "longitude": 91.39846
+      },
+      "boundary_source": "frontend/src/data/assam-districts.json"
+    },
+    {
+      "district_id": "311",
+      "district_name": "Sivasagar",
+      "district_key": "sivasagar",
+      "state": "Assam",
+      "centroid": {
+        "latitude": 26.994349,
+        "longitude": 94.621825
+      },
+      "boundary_source": "frontend/src/data/assam-districts.json"
+    },
+    {
+      "district_id": "306",
+      "district_name": "Sonitpur",
+      "district_key": "sonitpur",
+      "state": "Assam",
+      "centroid": {
+        "latitude": 26.76131,
+        "longitude": 92.70227
+      },
+      "boundary_source": "frontend/src/data/assam-districts.json"
+    },
+    {
+      "district_id": "758",
+      "district_name": "South Salmara Mankachar",
+      "district_key": "south_salmara_mankachar",
+      "state": "Assam",
+      "centroid": {
+        "latitude": 25.757705,
+        "longitude": 89.888849
+      },
+      "boundary_source": "frontend/src/data/assam-districts.json"
+    },
+    {
+      "district_id": "309",
+      "district_name": "Tinsukia",
+      "district_key": "tinsukia",
+      "state": "Assam",
+      "centroid": {
+        "latitude": 27.592335,
+        "longitude": 95.565609
+      },
+      "boundary_source": "frontend/src/data/assam-districts.json"
+    },
+    {
+      "district_id": "326",
+      "district_name": "Udalguri",
+      "district_key": "udalguri",
+      "state": "Assam",
+      "centroid": {
+        "latitude": 26.701539,
+        "longitude": 92.041308
+      },
+      "boundary_source": "frontend/src/data/assam-districts.json"
+    },
+    {
+      "district_id": "759",
+      "district_name": "West Karbi Anglong",
+      "district_key": "west_karbi_anglong",
+      "state": "Assam",
+      "centroid": {
+        "latitude": 25.860072,
+        "longitude": 92.585461
+      },
+      "boundary_source": "frontend/src/data/assam-districts.json"
+    }
+  ]
+}
