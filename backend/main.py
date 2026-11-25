@@ -1,11 +1,11 @@
 import os
 import secrets
 import sys
+import time
 from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Optional
 
-''' Ensure backend folder is on sys.path regardless of working directory '''
 BACKEND_DIR = Path(__file__).resolve().parent
 if str(BACKEND_DIR) not in sys.path:
     sys.path.insert(0, str(BACKEND_DIR))
@@ -25,7 +25,6 @@ from ai_core.ai_engine import HybridCNNLSTMPINN, AssamFloodDataset
 from ai_core.bhoonidhi_client import BhoonidhiClient
 from ai_core.cachar_inference import CacharFloodService
 
-''' Load environment variables directly from backend/.env '''
 load_dotenv(dotenv_path=BACKEND_DIR / ".env", override=True)
 
 IS_PRODUCTION = os.getenv("APP_ENV", "development").strip().lower() == "production"
@@ -50,7 +49,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-''' SECURITY SETUP '''
 API_KEY = (os.getenv("DASHBOARD_API_KEY") or "").strip()
 if API_KEY:
     print("Backend API Key loaded successfully from backend/.env")
@@ -59,12 +57,13 @@ else:
 
 api_key_header = APIKeyHeader(name="X-API-Key", auto_error=True)
 
+
 def verify_api_key(provided_key: str = Security(api_key_header)):
     if not API_KEY or not secrets.compare_digest(provided_key.strip(), API_KEY):
         raise HTTPException(status_code=403, detail="Could not validate API Key")
     return provided_key
 
-''' INITIALIZE FLOOD PREDICTION MODELS '''
+
 ai_model = HybridCNNLSTMPINN(input_dim=5, hidden_dim=64, output_dim=2)
 weights_path = Path(__file__).parent / "data" / "processed" / "model_weights.pth"
 
@@ -78,12 +77,14 @@ ai_model.eval()
 cachar_service = CacharFloodService()
 print("Cachar LSTM and CNN-PINN Service Loaded")
 
+
 class SimulationRequest(BaseModel):
     station_id: str
     latitude: float
     longitude: float
     rainfall_intensity_mm: float
     brahmaputra_backwater_m: float
+
 
 class CustomCacharInput(BaseModel):
     current_discharge_m3s: float
@@ -93,7 +94,7 @@ class CustomCacharInput(BaseModel):
     tipaimukh_rain_mm: float
     reference_date: Optional[str] = None
 
-''' WEATHER AND STATION LOCATIONS '''
+
 LOCATIONS = {
     "Tezpur": {"latitude": 26.6338, "longitude": 92.8000},
     "Guwahati": {"latitude": 26.1445, "longitude": 91.7362},
@@ -104,7 +105,7 @@ LOCATIONS = {
     "Lakhimpur": {"latitude": 27.2352, "longitude": 94.1036},
     "Barpeta": {"latitude": 26.3225, "longitude": 91.0060},
     "Morigaon": {"latitude": 26.2524, "longitude": 92.3420},
-    "Dhubri": {"latitude": 26.0207, "longitude": 89.9743}
+    "Dhubri": {"latitude": 26.0207, "longitude": 89.9743},
 }
 
 MONITORED_STATIONS = [
@@ -130,30 +131,36 @@ MONITORED_STATIONS = [
     {"id": "KARIMGANJ_01", "name": "Kushiyara (Karimganj)", "lat": 24.86, "lng": 92.35, "district": "Karimganj"},
     {"id": "HAILAKANDI_01", "name": "Katakhal (Hailakandi)", "lat": 24.68, "lng": 92.55, "district": "Hailakandi"},
     {"id": "KARBI_ANGLONG_01", "name": "Dhansiri (Karbi Anglong)", "lat": 26.18, "lng": 93.43, "district": "Karbi Anglong"},
-    {"id": "DIMA_HASAO_01", "name": "Barak Headwaters (Haflong)", "lat": 25.17, "lng": 93.60, "district": "Dima Hasao"}
+    {"id": "DIMA_HASAO_01", "name": "Barak Headwaters (Haflong)", "lat": 25.17, "lng": 93.60, "district": "Dima Hasao"},
 ]
 
-''' BASIC API ROUTES '''
+_WEATHER_CACHE = {}
+CACHE_TTL_SECONDS = 900
+
+
 @app.get("/")
 def home():
     return {"message": "Assam Flood Intelligence System API is running", "status": "online"}
+
 
 @app.get("/api/health")
 def health_check():
     return {"status": "healthy"}
 
+
 @app.get("/api/locations")
 def get_locations():
     return {"total_locations": len(LOCATIONS), "locations": LOCATIONS}
 
-''' UI DASHBOARD AND OVERVIEW ROUTES '''
+
 @app.get("/api/river/stations")
 def get_river_stations():
     return {
         "status": "success",
         "total": len(MONITORED_STATIONS),
-        "stations": MONITORED_STATIONS
+        "stations": MONITORED_STATIONS,
     }
+
 
 @app.get("/api/river/levels")
 def get_river_levels(hours: int = 24):
@@ -180,14 +187,15 @@ def get_river_levels(hours: int = 24):
             "warning_level": warning,
             "danger_level": danger,
             "status": status,
-            "trend": "rising" if (hash(station["id"]) % 2 == 0) else "stable"
+            "trend": "rising" if (hash(station["id"]) % 2 == 0) else "stable",
         })
 
     return {
         "status": "success",
         "timeframe_hours": hours,
-        "data": levels_data
+        "data": levels_data,
     }
+
 
 @app.get("/api/districts")
 def get_districts():
@@ -195,8 +203,9 @@ def get_districts():
     return {
         "status": "success",
         "total_districts": len(districts),
-        "districts": districts
+        "districts": districts,
     }
+
 
 @app.get("/api/overview/stats")
 def get_overview_stats():
@@ -205,8 +214,9 @@ def get_overview_stats():
         "active_stations": len(MONITORED_STATIONS),
         "monitored_districts": 23,
         "high_risk_zones": 3,
-        "system_status": "Operational"
+        "system_status": "Operational",
     }
+
 
 @app.get("/api/flood/zones")
 def get_flood_zones():
@@ -218,19 +228,26 @@ def get_flood_zones():
             "station_name": station["name"],
             "risk_level": risk,
             "latitude": station["lat"],
-            "longitude": station["lng"]
+            "longitude": station["lng"],
         })
     return {
         "status": "success",
-        "zones": zones
+        "zones": zones,
     }
 
-''' EXTERNAL DATA ROUTES '''
+
 @app.get("/api/weather/forecast")
 def get_weather_forecast(location: str = "Tezpur"):
     selected_location = next((name for name in LOCATIONS if name.lower() == location.lower()), None)
     if selected_location is None:
         raise HTTPException(status_code=404, detail="Location not found.")
+
+    now = time.time()
+    cached_entry = _WEATHER_CACHE.get(selected_location)
+    if cached_entry is not None:
+        cached_payload, cached_at = cached_entry
+        if now - cached_at < CACHE_TTL_SECONDS:
+            return cached_payload
 
     coordinates = LOCATIONS[selected_location]
     url = "https://api.open-meteo.com/v1/forecast"
@@ -241,20 +258,25 @@ def get_weather_forecast(location: str = "Tezpur"):
         "current": ["temperature_2m", "relative_humidity_2m", "precipitation", "wind_speed_10m"],
         "hourly": ["precipitation", "relative_humidity_2m", "precipitation_probability"],
         "daily": ["precipitation_sum", "precipitation_probability_max"],
-        "timezone": "Asia/Kolkata"
+        "timezone": "Asia/Kolkata",
     }
 
     try:
         response = requests.get(url, params=params, timeout=8)
         response.raise_for_status()
-        return {
+        payload = {
             "source": "Open-Meteo",
             "location": selected_location,
             "coordinates": coordinates,
-            "weather": response.json()
+            "weather": response.json(),
         }
+        _WEATHER_CACHE[selected_location] = (payload, now)
+        return payload
     except requests.exceptions.RequestException as error:
         print(f"Weather API timeout. Using fallback data. Error: {error}")
+        if cached_entry is not None:
+            return cached_entry[0]
+
         now_dt = datetime.now().replace(minute=0, second=0, microsecond=0)
         hourly_times = [(now_dt + timedelta(hours=i)).strftime("%Y-%m-%dT%H:%M") for i in range(72)]
         daily_times = [(now_dt + timedelta(days=i)).strftime("%Y-%m-%d") for i in range(7)]
@@ -268,23 +290,23 @@ def get_weather_forecast(location: str = "Tezpur"):
                     "temperature_2m": 22.5,
                     "relative_humidity_2m": 78.0,
                     "precipitation": 0.0,
-                    "wind_speed_10m": 4.2
+                    "wind_speed_10m": 4.2,
                 },
                 "hourly": {
                     "time": hourly_times,
                     "precipitation": [0.0] * 72,
                     "relative_humidity_2m": [78.0] * 72,
-                    "precipitation_probability": [10] * 72
+                    "precipitation_probability": [10] * 72,
                 },
                 "daily": {
                     "time": daily_times,
                     "precipitation_sum": [0.0] * 7,
-                    "precipitation_probability_max": [15] * 7
-                }
-            }
+                    "precipitation_probability_max": [15] * 7,
+                },
+            },
         }
 
-''' DIGITAL TWIN FORECASTING ROUTE (SECURED) '''
+
 @app.post("/api/simulate")
 def run_ai_simulation(req: SimulationRequest, api_key: str = Depends(verify_api_key)):
     base_dir = Path(__file__).parent / "data" / "processed"
@@ -347,22 +369,22 @@ def run_ai_simulation(req: SimulationRequest, api_key: str = Depends(verify_api_
         "location": {
             "station_id": req.station_id,
             "latitude": req.latitude,
-            "longitude": req.longitude
+            "longitude": req.longitude,
         },
         "forecast": {
             "horizon": "+6 Hours",
             "water_level_m": round(predicted_stage, 2),
             "uncertainty_m": round(stage_uncertainty, 2),
             "breach_probability_pct": round(breach_prob, 1),
-            "alert_status": alert_color
+            "alert_status": alert_color,
         },
         "satellite": {
             "latest_image_id": sat_id,
-            "collection": sat_collection
-        }
+            "collection": sat_collection,
+        },
     }
 
-''' CACHAR BASIN HYBRID FORECASTING ENDPOINTS '''
+
 @app.get("/api/cachar/forecast")
 def get_cachar_forecast(date: str = None, rain_multiplier: float = 1.0):
     try:
